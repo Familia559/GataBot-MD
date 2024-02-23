@@ -135,8 +135,8 @@ global.vs = "1.7.0"
 global.vsJB = "2.5 (Beta)"
 global.gt = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
 
-global.yt = "https://youtube.com/@gatadios"
-global.yt2 = "https://www.youtube.com/watch?v=Ko019wvu2Tc&t=71s"
+global.yt = "https://youtube.com/@bigmc3430"
+global.yt2 = "https://youtube.com/@bigmc3430?si=dgYX_JO-_w8D3Hh-"
 global.ig = "https://www.instagram.com/gata_dios"
 global.md = "https://github.com/GataNina-Li/GataBot-MD"
 global.fb = "https://www.facebook.com/groups/872989990425789/"
@@ -194,7 +194,7 @@ global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*"
 global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*"
 global.waitttt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*"
 global.waittttt = "*✅ _Completado | Filled..._ ▬▬▬▬▬▬▬*"
-global.nomorown = "593993684821"
+global.nomorown = "559285013050"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
