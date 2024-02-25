@@ -143,7 +143,7 @@ global.fb = "https://www.facebook.com/groups/872989990425789/"
 global.tk = "https://www.tiktok.com/@big.edits.ofc"
 global.ths = "https://www.threads.net/@gata_dios"
 global.paypal = 'https://paypal.me/OficialGD'
-global.asistencia = 'https://wa.me/message/C45GXBEFTPONE1' //Contacto
+global.asistencia = 'https://wa.me/qr/X7SMHMQZL25UL1' //Contacto
 global.bot = 'wa.me/559285013050\n* wa.me/559285013050' //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 💖🐈
 
 global.nna = 'https://www.atom.bio/GataBot/' // Cuentas
@@ -300,7 +300,7 @@ global.rpg = {
 emoticon(string) {
 string = string.toLowerCase();
 let emot = {
-      level: '🧬 Nivel : Level',
+      level: '🏅 Nivel : Level',
       limit: lenguajeGB.eDiamante(),
       exp: lenguajeGB.eExp(),
       bank: '🏦 Banco : Bank',
