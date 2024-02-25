@@ -137,10 +137,10 @@ global.gt = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
 
 global.yt = "https://youtube.com/@bigmc3430"
 global.yt2 = "https://youtube.com/@bigmc3430?si=dgYX_JO-_w8D3Hh-"
-global.ig = "https://www.instagram.com/gata_dios"
+global.ig = "https://www.instagram.com/1bigmc"
 global.md = "https://github.com/GataNina-Li/GataBot-MD"
 global.fb = "https://www.facebook.com/groups/872989990425789/"
-global.tk = "https://www.tiktok.com/@gata_bot"
+global.tk = "https://www.tiktok.com/@big.edits.ofc"
 global.ths = "https://www.threads.net/@gata_dios"
 global.paypal = 'https://paypal.me/OficialGD'
 global.asistencia = 'https://wa.me/message/C45GXBEFTPONE1' //Contacto
