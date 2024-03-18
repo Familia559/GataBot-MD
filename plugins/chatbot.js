@@ -46,7 +46,7 @@ if (/^oquie um bot?|Que es un bot|Que es gatabot?$/i.test(m.text) ) { //sem pref
 ┆——————«•»——————
 ┆ o bot e uma inteligência artificial que executa tarefas que você indica 
 ┆ com comandos,no whatsapp você pode criar stickers,baixar músicas,vídeos,
-┆ criar logos tipos personalizados 
+┆ criar logos tipos personalizados é muito mais,isso de forma automática
 ┆  
 ┆ 
 ┆
