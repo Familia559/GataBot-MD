@@ -13,9 +13,9 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["559285013050", '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
-["559285013050"], 
-["559285013050"], ["559285013050"], ["559285013050"], ["559285013050"]]
+["558193813503", '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
+["558193813503"], 
+["558193813503"], ["558193813503"], ["558193813503"], ["558193813503"]]
 
 global.mods = []
 global.prems = []
@@ -33,7 +33,7 @@ global.keepAliveRender = 0; //Solo valores: 1 o 0
 // ❰❰ methodCode ❱❱
 // [ES] > Agregue el número del Bot en "botNumberCode" si desea recibir código de 8 dígitos sin registrar el número en la consola.
 // [EN] > Add the Bot number in "botNumberCode" if you want to receive 8-digit code without registering the number in the console.
-global.botNumberCode = "" //example: "+59309090909"
+global.botNumberCode = "558191164339" //example: "+59309090909"
 global.confirmCode = "" // No tocar esto : Do not touch this line
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -112,11 +112,11 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["553193342889", 'Gata Dios 💻', 1], 
-["559285013050", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
-["559285013050", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
-["559285013050", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
-["559285013050", 'Soporte', 1]]
+["558191164339", 'Gata MD 💻', 1], 
+["558193813503", 'Dono oficial 💻', 1],  
+["558193813503", 'Dono oficial 💻', 1],
+["558193813503", 'Dono oficial 💻', 1],
+["558193813503", 'Soporte', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -125,7 +125,7 @@ global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 global.packname = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈"
-global.author = "𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
+global.author = "Maguinho MD"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > CUENTAS E INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
@@ -135,34 +135,34 @@ global.vs = "1.7.0"
 global.vsJB = "2.5 (Beta)"
 global.gt = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
 
-global.yt = "https://youtube.com/@bigmc3430"
-global.yt2 = "https://youtube.com/@bigmc3430?si=dgYX_JO-_w8D3Hh-"
-global.ig = "https://www.instagram.com/1bigmc"
-global.md = "https://github.com/GataNina-Li/GataBot-MD"
-global.fb = "https://www.facebook.com/groups/872989990425789/"
-global.tk = "https://www.tiktok.com/@big.edits.ofc"
-global.ths = "https://www.threads.net/@gata_dios"
-global.paypal = 'https://paypal.me/OficialGD'
-global.asistencia = 'https://wa.me/qr/X7SMHMQZL25UL1' //Contacto
-global.bot = 'wa.me/559285013050\n* wa.me/559285013050' //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 💖🐈
+global.yt = ""
+global.yt2 = ""
+global.ig = ""
+global.md = ""
+global.fb = ""
+global.tk = ""
+global.ths = ""
+global.paypal = ''
+global.asistencia = '' //Contato
+global.bot = 'wa.me/558191164339\n* ' //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 💖🐈
 
-global.nna = 'https://www.atom.bio/GataBot/' // Cuentas
-global.nn2 = 'https://t.me/supergatabot' // Grupo tg GataBot
-global.nna2 = 'https://chat.whatsapp.com/KaTeeaexrGSHBzPm4s945b' // Help
-global.nn = 'https://chat.whatsapp.com/HBIIrHorHbW2LIxlS9MjRI' // Grupo 1
-global.nnn = 'https://chat.whatsapp.com/CtA2nopOZor0bRwV3FCYH3' // Grupo 2
-global.nnnt = 'https://chat.whatsapp.com/HVLk7c3ZlNN0mJjodw4NkV' // Grupo 3
-global.nnntt = 'https://chat.whatsapp.com/BSDrNVhj2lVElUgrNnGoby' // Grupo 4
-global.nnnttt = 'https://chat.whatsapp.com/CciFSHhsYxd9TqW2tZhhZx' // Grupo 5
-global.nnnttt1 = 'https://chat.whatsapp.com/Ej5AUrpmYnJKYtEa6YMwK6' // Grupo 6 COL
-global.nnnttt2 = 'https://chat.whatsapp.com/I9DsG6ABKer27NbW01Nl39' // Grupo 7 COL
-global.nnnttt3 = 'https://chat.whatsapp.com/BngbJC3aBVhF5KjoaawiT1' // Grupo 8 COL
-global.nnnttt4 = 'https://chat.whatsapp.com/KQtWZDVfosTKbheIlndLBN' // Grupo 9 COL
-global.nnnttt5 = 'https://chat.whatsapp.com/HXOGzELFOVXFM1KrSoKdqH' // MULTI - BOTS
-global.nnnttt6 = 'https://chat.whatsapp.com/KNFk4om8MR70h8t3fTSHea' // A.T.M.M
-global.channel1 = 'https://whatsapp.com/channel/0029Va6yY0iLY6d6XDmqA03g'
-global.channel2 = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'
-global.channel3 = 'https://t.me/globalgb'
+global.nna = '' // Cuentas
+global.nn2 = '' // Grupo tg GataBot
+global.nna2 = '' // Help
+global.nn = '' // Grupo 1
+global.nnn = '' // Grupo 2
+global.nnnt = '' // Grupo 3
+global.nnntt = '' // Grupo 4
+global.nnnttt = '' // Grupo 5
+global.nnnttt1 = '' // Grupo 6 COL
+global.nnnttt2 = '' // Grupo 7 COL
+global.nnnttt3 = '' // Grupo 8 COL
+global.nnnttt4 = '' // Grupo 9 COL
+global.nnnttt5 = '' // MULTI - BOTS
+global.nnnttt6 = '' // A.T.M.M
+global.channel1 = ''
+global.channel2 = ''
+global.channel3 = ''
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 global.rg = '╰⊱✅⊱ *𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊 | 𝙍𝙀𝙎𝙐𝙇𝙏* ⊱✅⊱╮\n\n'
