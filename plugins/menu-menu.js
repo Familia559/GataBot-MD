@@ -104,7 +104,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 > *_${formatDate}_*
 > \`${nombreLugar} - ${ciudad}\`
 
-> 🌟 *INFORMACIÓN GENERAL* 🌟
+> 🌟 *INFORMAÇÃO GENERAL* 🌟
 
 *❰❰ ${lenguajeGB['smsTotalUsers']()} ❱❱* 
 ➺ \`\`\`${Object.keys(global.db.data.users).length}\`\`\`
@@ -127,12 +127,12 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 *❰❰ ${lenguajeGB['smsBanUsers']()} ❱❱* 
 ➺ \`\`\`${Object.entries(global.db.data.users).filter(user => user[1].banned).length}\`\`\`
 
-> ✨ *INFORMACIÓN DEL USUARIO* ✨
+> ✨ *INFORMAÇÃO DO USUARIO* ✨
 
 *❰❰ Tipo de registro ❱❱*
 ➺ ${user.registered === true ? `_${user.registroC === true ? '🗂️ Registro Completo' : '📑 Registro Rápido'}_` : '❌ _Sin registro_'}
 
-*❰❰ Mi estado ❱❱*
+*❰❰ Meu estado ❱❱*
 ➺ ${typeof user.miestado !== 'string' ? '❌ *Establecer usando:* _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
 
 *❰❰ Registrado ❱❱*
@@ -153,7 +153,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 *❰❰ Pasatiempo(s) ❱❱* 
 ➺ ${user.pasatiempo === 0 ? '*Sin Registro*' : user.pasatiempo + '\n'}
 
-> 💫 *INFORMACIÓN* 💫
+> 💫 *INFORMAÇÃO* 💫
 
 ✓ _${usedPrefix}cuentasgatabot | cuentasgb_
 ✓ _${usedPrefix}gruposgb | grupos | groupgb_
@@ -167,20 +167,13 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _Bot_ 
 ✓ _términos y condiciones_
 
-> 💻 *COMANDOS - SUB BOT*
-
-✓ _${usedPrefix}serbot | jadibot_
-✓ _${usedPrefix}serbot --code | jadibot --code_
-✓ _${usedPrefix}bots | listjadibots_
-✓ _${usedPrefix}detener | stop_
-✓ _${usedPrefix}bcbot_
 
 > 🆘 *REPORTAR COMANDOS* 🆘
 
 ✓ _${usedPrefix}reporte *texto*_
 ✓ _${usedPrefix}report *texto*_
 
-> 🪅 *UNIR GATABOT A UN GRUPO* 🪅
+> 🪅 *UNIR GATABOT A UM GRUPO* 🪅
 
 ✓ _${usedPrefix}botemporal *enlace* *cantidad*_
 ✓ _${usedPrefix}addbot *enlace* *cantidad*_
@@ -191,7 +184,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}pase premium_
 ✓ _${usedPrefix}pass premium_
 
-> 🎡 *JUEGOS* 🎡
+> 🎡 *JOGOS* 🎡
 
 ✓ _${usedPrefix}mates | matemáticas | math_
 ✓ _${usedPrefix}lanzar *cara* | *cruz*_
@@ -200,9 +193,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}deltictactoe | delttt_
 ✓ _${usedPrefix}topgays_
 ✓ _${usedPrefix}topotakus_
-✓ _${usedPrefix}toppajer@s_
-✓ _${usedPrefix}topput@s_
-✓ _${usedPrefix}topintegrantes | topintegrante_
+✓ _${usedPrefix}toppajer@sedPrefix}topintegrantes | topintegrante_
 ✓ _${usedPrefix}toplagrasa | topgrasa_
 ✓ _${usedPrefix}toppanasfrescos | toppanafresco_
 ✓ _${usedPrefix}topshiposters | topshipost_
