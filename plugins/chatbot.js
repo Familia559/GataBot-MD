@@ -23,7 +23,7 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 }*/
 
-if (/^reglas|normas|Reglas$/i.test(m.text) ) { //sin prefijo 
+if (/^regras|normas|Reglas$/i.test(m.text) ) { //sin prefijo 
     conn.reply(m.chat, `╭┅〘 ⚠️ 𝗢𝗯𝗲𝗱𝗲c 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀 ⚠️ 〙*
 ➽❌ 𝐏𝐫𝐨𝐡𝐢𝐛𝐢𝐝𝐨 𝐥𝐥𝐚𝐦𝐚𝐫 𝐚𝐥 𝐁𝐨𝐭
 ➽❌ 𝐏𝐫𝐨𝐡𝐢𝐛𝐢𝐝𝐨 𝐒𝐩𝐚𝐦 𝐚𝐥 𝐁𝐨𝐭
@@ -38,7 +38,7 @@ if (/^reglas|normas|Reglas$/i.test(m.text) ) { //sin prefijo
 
  }*/
  
-if (/^¿oquie um bot?|Que es un bot|Que es gatabot?$/i.test(m.text) ) { //sem prefixo
+if (/^oquie um bot?|Que es un bot|Que es gatabot?$/i.test(m.text) ) { //sem prefixo
     conn.reply(m.chat, `╭┄〔 *${wm}* 〕┄⊱
 ┆ ——————«•»——————
 ┆ ☆::¿Quie um bot de WhatsApp?::☆
