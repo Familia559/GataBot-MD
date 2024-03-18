@@ -55,7 +55,7 @@ conn.reply(m.chat, `*SU TIEMPO DE REGISTRO HA TERMINADO!!*\n\n_Si no continúa e
 if (user.registered === true) return conn.reply(m.chat, `${lenguajeGB['smsAvisoIIG']()}*YA ESTÁ REGISTRADO!!*\n*SI QUIERE ANULAR SU REGISTRO, USE ESTE COMANDO*\n*${usedPrefix}unreg numero de serie*\n\n*SI NO RECUERDA SU NÚMERO DE SERIE, USE ESTE COMANDO*\n*${usedPrefix}myns*`, fkontak, m)	
 
 if (command == 'verificar' || command == 'verify' || command == 'register' || command == 'reg' || command == 'registrar') {
-await conn.reply(m.chat, `*👀 CÓMO DESEA REGISTRARSE?*\n\n📑 *REGISTRO RÁPIDO*\n• Insignia de verificación\n• Desbloquear comandos que requieran registro\n\n*Escriba para el registro rápido:*\n${usedPrefix}reg1 nombre edad\n\n🗂️ *REGISTRO COMPLETO*\n• Insignia de verificación\n• Desbloquear comandos que requieran registro\n• Premium Temporal Gratis\n• Más opciones para este registro\n\n*Escriba para el registro completo:*\n${usedPrefix}nombre\n\n\`\`\`⭐ Considere que tendrá un tiempo para completar en caso de registrarse\`\`\``, fkontak, m)
+await conn.reply(m.chat, `*👀 CÓMO DESEA REGISTRARSE?*\n\n📑 *REGISTRO RÁPIDO*\n• Insignia de verificação\n• Desbloquear comandos que requieran registro\n\n*Escriba para el registro rápido:*\n${usedPrefix}reg1 nome idade\n\n🗂️ *REGISTRO COMPLETO*\n• Insignia de verificação\n• Desbloquear comandos que requieran registro\n• Premium Temporal Gratis\n• Más opciones para este registro\n\n*Escriba para el registro completo:*\n${usedPrefix}nombre\n\n\`\`\`⭐ Considere que tendrá un tiempo para completar en caso de registrarse\`\`\``, fkontak, m)
 }
 
 if (command == 'reg1') {
@@ -83,16 +83,16 @@ if (_registro[1] < 10) return conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}*
 user.age = parseInt(_registro[1]) //_registro[1]	
 global.db.data.users[m.sender]['registroR'] = true
 
-let registroRapido = ` *░ 📑 REGISTRO ACTUAL 📑 ░*
+let registroRapido = ` *░ 📑 REGISTRO ATUAL 📑 ░*
  *∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷*
-┊ *✓ NOMBRE*
+┊ *✓ NOME*
 ┊ ⁘ ${user.name === 0 ? sinDefinir : user.name}
 ┊
-┊ *✓ EDAD*
-┊ ⁘ ${user.age === 0 ? sinDefinir : user.age + ' años'}
+┊ *✓ IDADE*
+┊ ⁘ ${user.age === 0 ? sinDefinir : user.age + ' anos'}
 ╰┈┈┈┈┈┈┈┈┈┈┈┈•
 
-❇️ \`\`\`Para finalizar su registro escriba:\`\`\`
+❇️ \`\`\`Para finalizar seu registro Escreva:\`\`\`
 ✪ *${usedPrefix}finalizar*`
 
 await conn.sendMessage(m.chat, {
@@ -100,9 +100,9 @@ text: registroRapido,
 contextInfo: {
 externalAdReply: {
 title: wm,
-body: '🌟 Puede modificar su registro antes de finalizar',
+body: '🌟 Pode modificar seu registro antes de finalizar',
 thumbnailUrl: pp, 
-sourceUrl: 'https://www.atom.bio/gatabot/',
+sourceUrl: '',
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
