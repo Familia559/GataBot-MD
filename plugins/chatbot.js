@@ -50,7 +50,8 @@ if (/^oquie um bot?|Que es un bot|Que es gatabot?$/i.test(m.text) ) { //sem pref
 ┆ ou seja,humano não interfere no processo.
 ┆ 
 ┆       Obrigado Por sua compreensão.
-┆ Para ver o menu de comandos user !menu
+┆ 
+┆    Para ver o menu de comandos user !menu
 ┆ 
 ┆ 「 🅖🅐🅣🅐🅑🅞🅣-🅜🅓 」
 ╰━━━⊰ 𓃠 ${vs} ⊱━━━━დ*`, m) //wm, null, [['Menu', '#menu']], m) botones :V
