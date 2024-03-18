@@ -1,4 +1,4 @@
-let handler  = async (m, { conn, usedPrefix, command }) => {
+/*let handler  = async (m, { conn, usedPrefix, command }) => {
 const fkontak = {
 	"key": {
     "participants":"0@s.whatsapp.net",
