@@ -335,7 +335,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}on_
 ✓ _${usedPrefix}off_
 
-> 💞 *PAREJAS* 💞
+> 💞 *PAREIA* 💞
 
 ✓ _${usedPrefix}listaparejas | listship_
 ✓ _${usedPrefix}mipareja | mylove_
@@ -352,7 +352,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}vervotos | cekvoto_
 ✓ _${usedPrefix}delvoto | deletevoto_
 
-> 🔞 *CONTENIDO* 🔞
+> 🔞 *MENU +18* 🔞
 
 ✓ _${usedPrefix}hornymenu_
 
@@ -372,7 +372,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}logos *efecto texto*_
 ✓ _${usedPrefix}menulogos2_
 
-> 💥 *EFECTOS* 💥
+> 💥 *EFEITOS* 💥
 
 ✓ _${usedPrefix}simpcard *@tag*_
 ✓ _${usedPrefix}hornycard *@tag*_
@@ -435,7 +435,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}sakura_
 ✓ _${usedPrefix}cosplay_
 
-> 🎙️ *EFECTO DE AUDIO* 🎙️
+> 🎙️ *EFEITO DE AUDIO* 🎙️
 
 ✓ _${usedPrefix}bass_
 ✓ _${usedPrefix}blown_
@@ -464,7 +464,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 
 ✓ _${usedPrefix}audios_
 
-> 🛠️ *HERRAMIENTAS* 🛠️
+> 🛠️ *FERRAMENTAS* 🛠️
 
 ✓ _${usedPrefix}afk *motivo*_
 ✓ _${usedPrefix}acortar *url*_
@@ -525,11 +525,11 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}fantasyinfo | fyinfo_
 ✓ _${usedPrefix}fylista_
 
-> 🏆 *TOP EN GATABOT* 🏆
+> 🏆 *TOP EM GATABOT* 🏆
 
 ✓ _${usedPrefix}top | lb | leaderboard_
 
-> 🎭 *FILTROS EN STICKERS* 🎭
+> 🎭 *FILTROS EM STICKERS* 🎭
 
 ✓ _${usedPrefix}sticker | s *imagen o video*_
 ✓ _${usedPrefix}sticker | s *url de tipo jpg*_
@@ -562,7 +562,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}besar | kiss *@tag*_
 ✓ _${usedPrefix}alimentar | food *@tag*_
 
-> 💎 *PARA MI CREADOR/A* 💎
+> 💎 *PARA MEU CRIADOR* 💎
 
 ✓ _${usedPrefix}join *enlace*_
 ✓ _${usedPrefix}unete *enlace*_
