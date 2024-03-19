@@ -135,7 +135,7 @@ global.vs = "1.7.0"
 global.vsJB = "2.5 (Beta)"
 global.gt = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
 
-global.yt = ""
+global.yt = "https://youtube.com/@MaguinhoMD.?si=8cR4M6IKGXoniG4b"
 global.yt2 = ""
 global.ig = "https://www.instagram.com/081.vitin?igsh=MTdsdnF2Ym0yMjd5aw=="
 global.md = ""
