@@ -132,13 +132,13 @@ user.name = nombreWA.replace(/\s+/g, '').replace(/[0-9]+/gi, "").slice(1).trim()
 if (user.name) return conn.sendMessage(m.chat, {text: `${lenguajeGB['smsAvisoEG']()}🌟 *GENIAL!! SE HA COMPLETADO LO SIGUIENTE*\n*- - - - - - - - - - - - - - - - - - - - - - - - - - - -*\n\n*❖ NOME:*\n${user.name === 0 ? sinDefinir : user.name}\n\n🔢 *AGORA PODE REGISTRAR SUA IDADE, EXEMPLO:*\n\`\`\`${usedPrefix}idade 20\`\`\``}, {quoted: fkontak})
 }
 		
-if (command == 'idade' || command == 'age' || command == 'idade2' || command == 'age2') {
+if (command == 'idade' || command == 'idad' || command == 'idade' || command == 'idad2') {
 if (verificar.test(text.slice(1)) == false && !text) return conn.sendMessage(m.chat, {text: `${lenguajeGB['smsAvisoIIG']()}*👉 AGREGUE SUA IDADE PARA REGISTRAR, EXEMPLO:*\n${usedPrefix}idade 20`}, {quoted: fkontak})
 if (isNaN(text)) return conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}*INGRESE SOLO NÚMEROS*`, fkontak, m)
 if (text > 90) return conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}*DEMASIADO MAYOR PARA SER REGISTRADO*`, fkontak, m)
 if (text < 10) return conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}*DEMASIADO MENOR PARA SER REGISTRADO*`, fkontak, m)
 user.age = text.replace(/[.,\/#!$%\^&\*;:{}@=\-_`~()\s\a-z]/gi, "")
-if (verificar.test(text) == true) return conn.sendMessage(m.chat, {text: `${lenguajeGB['smsAvisoEG']()}🌟 *GENIAL!! SE HA COMPLETADO LO SIGUIENTE*\n*- - - - - - - - - - - - - - - - - - - - - - - - - - - -*\n\n*❖ NOME:*\n${user.name === 0 ? sinDefinir : user.name}\n\n*❖ IDADE:*\n${user.age === 0 ? sinDefinir : user.age + ' años'}\n\n🧬 *AGORA PODE REGISTRAR SEU GÉNERO, EXEMPLO:*\n\`\`\`${usedPrefix}genero\`\`\``}, {quoted: fkontak})
+if (verificar.test(text) == true) return conn.sendMessage(m.chat, {text: `${lenguajeGB['smsAvisoEG']()}🌟 *GENIAL!! SE HA COMPLETADO LO SIGUIENTE*\n*- - - - - - - - - - - - - - - - - - - - - - - - - - - -*\n\n*❖ NOME:*\n${user.name === 0 ? sinDefinir : user.name}\n\n*❖ IDADE:*\n${user.age === 0 ? sinDefinir : user.age + ' anos'}\n\n🧬 *AGORA PODE REGISTRAR SEU GÉNERO, EXEMPLO:*\n\`\`\`${usedPrefix}genero\`\`\``}, {quoted: fkontak})
 }
 	
 if (command == 'genero' || command == 'género' || command == 'gender') {
@@ -176,7 +176,7 @@ user.genero = genero
 if (user.genero) return conn.sendMessage(m.chat, {text: `${lenguajeGB['smsAvisoEG']()}🌟 *GENIAL!! SE HA COMPLETADO LO SIGUIENTE*\n*- - - - - - - - - - - - - - - - - - - - - - - - - - - -*\n\n*❖ NOMBRE:*\n${user.name === 0 ? sinDefinir : user.name}\n\n*❖ EDAD:*\n${user.age === 0 ? sinDefinir : user.age + ' años'}\n\n*❖ GENERO:*\n${user.genero === 0 ? sinDefinir : user.genero}\n\n*🌼 AHORA PUEDE REGISTRAR SU ORIENTACIÓN SEXUAL, EJEMPLO:*\n\`\`\`${usedPrefix}identidad\`\`\``}, {quoted: fkontak}) 
 }
 	
-if (command == 'identidad' || command == 'identity') {
+if (command == 'identidade' || command == 'identity') {
 var generos = [
 "Agénero", "Andrógino", "Andrógina", "Asexual", "Bigénero", "Bisexual",
 "Cisgénero", "CrossDresser", "Demigénero", "Gay", "Género fluido", "Género neutro",
@@ -589,7 +589,7 @@ renderLargerThumbnail: true
 }}}, { quoted: fkontak })
 await m.reply(`${sn}`)	
 }}
-handler.command = ['verify', 'verificar', 'register', 'registrar', 'reg', 'reg1', 'nome', 'name', 'nome2', 'name2', 'idade', 'age', 'idade2', 'age2', 'genero', 'género', 'gender', 'identidad', 'pasatempo', 'hobby', 'identity', 'finalizar', 'pas2', 'pas3', 'pas4', 'pas5']  ///^(verify|verificar|reg(ister)?)$/i
+handler.command = ['verify', 'verificar', 'register', 'registrar', 'reg', 'reg1', 'nome', 'name', 'nome2', 'name2', 'idade', '', 'idade2', '', 'genero', 'género', 'gender', 'identidade', 'pasatempo', 'hobby', 'identity', 'finalizar', 'pas2', 'pas3', 'pas4', 'pas5']  ///^(verify|verificar|reg(ister)?)$/i
 export default handler
 
 function pickRandom(list) { 
