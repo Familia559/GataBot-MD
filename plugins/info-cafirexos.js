@@ -9,7 +9,7 @@ Aprovecha la compatibilidad y comienza usar GataBot en servidores de alto rendim
 🔵 \`\`\`Informação do Host\`\`\`
 
 💻 *Grupo Teste*
-
+https://chat.whatsapp.com/Ix8PiZQCjhl0uKTs76dfHD
 
 ✨ *Manutenção*
 
