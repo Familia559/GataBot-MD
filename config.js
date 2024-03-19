@@ -148,8 +148,8 @@ global.bot = 'wa.me/558191164339\n* ' //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 �
 
 global.nna = '' // Cuentas
 global.nn2 = '' // Grupo tg GataBot
-global.nna2 = '' // Help
-global.nn = '' // Grupo 1
+global.nna2 = 'https://chat.whatsapp.com/IrireRmdD2T49uq7AJQmhc' // Help
+global.nn = 'https://chat.whatsapp.com/IosaZb6yEXT6DSwRLkOfnS' // Grupo 1
 global.nnn = '' // Grupo 2
 global.nnnt = '' // Grupo 3
 global.nnntt = '' // Grupo 4
