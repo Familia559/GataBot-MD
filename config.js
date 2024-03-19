@@ -137,13 +137,13 @@ global.gt = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
 
 global.yt = ""
 global.yt2 = ""
-global.ig = ""
+global.ig = "https://www.instagram.com/081.vitin?igsh=MTdsdnF2Ym0yMjd5aw=="
 global.md = ""
-global.fb = ""
+global.fb = "https://www.facebook.com/profile.php?id=100024728942163"
 global.tk = ""
 global.ths = ""
 global.paypal = ''
-global.asistencia = '' //Contato
+global.asistencia = 'https://wa.me/message/D5UJSKFY7OJEF1' //Contato
 global.bot = 'wa.me/558191164339\n* ' //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 💖🐈
 
 global.nna = '' // Cuentas
