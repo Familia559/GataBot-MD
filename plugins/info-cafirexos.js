@@ -8,20 +8,20 @@ Aprovecha la compatibilidad y comienza usar GataBot en servidores de alto rendim
 
 🔵 \`\`\`Informação do Host\`\`\`
 
-💻 *Página*
-https://www.cafirexos.com
+💻 *Grupo Teste*
 
-✨ *Dashboard*
-https://dash.cafirexos.com
 
-⚙️ *Painell*
-https://panel.cafirexos.com
+✨ *Manutenção*
+
+
+⚙️ *Suporte*
+
 
 📢 *Canal de WhatsApp*
-
+https://chat.whatsapp.com/KSdxcdn16JVBKs3Ok4KROl
 
 💥 *Grupo de WhatsApp*
-
+https://chat.whatsapp.com/IosaZb6yEXT6DSwRLkOfnS
 
 📧 *Correio*
 vg981317@gmail.com
@@ -36,8 +36,8 @@ contextInfo: {
 externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: false,
-title: `🔵 C A F I R E X O S 🔵`,
-body: `✅ Hosting de Calidad`,
+title: `🔵 A N U N C I O 🔵`,
+body: `✅ Sejam Bem vindos`,
 mediaType: 1,
 sourceUrl: accountsgb.getRandom(),
 thumbnailUrl: 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo_2.png'
