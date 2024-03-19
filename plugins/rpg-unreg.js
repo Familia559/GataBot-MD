@@ -17,7 +17,7 @@ user.premLimit = 1
 user.tiempo = 0
 user.descripcion = 0
 user.registered = false
-m.reply(`${eg} 𝙑𝙊𝘾𝙀̂ 𝙉𝘼̃𝙊 𝙀𝙎𝙏𝘼́ 𝙈𝘼𝙄𝙎 𝙍𝙀𝙂𝙄𝙎𝙏𝙍𝘼𝘿𝙊 😪(𝘼)\n\n`)
+m.reply(`${eg} 𝙑𝙊𝘾𝙀̂ 𝙉𝘼̃𝙊 𝙀𝙎𝙏𝘼́ 𝙈𝘼𝙄𝙎 𝙍𝙀𝙂𝙄𝙎𝙏𝙍𝘼𝘿𝙊 😪(𝘼)\`)
 }
 handler.help = ['', 'ister'].map(v => 'unreg' + v + ' <numero de serie>')
 handler.tags = ['xp']
