@@ -561,19 +561,19 @@ text: `🍃 \`\`\`VERIFICACIÓN EXITOSA\`\`\` 🍃
 ❱❱ ${user.tiempo}\n
 🛅 *CÓDIGO DE REGISTRO*
 ❱❱ ${sn}\n
-✅ *INSIGNIA DE VERIFICACIÓN*
+✅ *INSIGNIA DE VERIFICAÇÃO*
 ❱❱   *${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓ᚲᴳᴮ' : ''}*\n
-✨ *NOMBRE* 
+✨ *NOME* 
 ❱❱ ${user.name}\n
 👀 *DESCRIPCIÓN*
 ❱❱ ${user.descripcion}\n
-🔢 *EDAD* 
+🔢 *IDADE* 
 ❱❱ ${user.age}\n
 ${user.registroC === true ? `☘️ *GENERO*
 ❱❱ ${user.genero}\n
-🌱 *ORIENTACIÓN SEXUAL*
+🌱 *ORIENTAÇÃO SEXUAL*
 ❱❱ ${user.identidad}\n
-❇️ *PASATIEMPO(S)*
+❇️ *PASATEMPO(S)*
 ❱❱ ${user.pasatiempo}\n
 ${user.premLimit === 1 ? '' : `🎟️ *PREMIUM*
 ❱❱ ${user.premLimit === 1 ? '' : `${user.premiumTime > 0 ? '✅' : '❌'} +10 HORAS || ${user.premiumTime - now} ms`}`}   ` : ''}${user.registroC === true ? `\n🌟 *Si es su primera vez registrándose, recibirá horas premium de forma gratuita como bonificación exclusiva por su primera inscripción, puede cancelar y eliminar su registro en cualquier momento. Gracias por registrarse ✨*` : ''}`.trim(),
@@ -582,7 +582,7 @@ externalAdReply: {
 title: wm,
 body: user.name,
 thumbnailUrl: pp, 
-sourceUrl: 'https://www.atom.bio/gatabot/',
+sourceUrl: '',
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
