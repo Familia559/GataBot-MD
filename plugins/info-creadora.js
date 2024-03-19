@@ -15,7 +15,7 @@ const cat = `𝐌𝐀𝐆𝐔𝐈𝐍𝐇𝐎-𝐎𝐅𝐂 💖🐈
 *CENTRO GATABOT*
 *vg981317@gmail.com*
 
-MAGUINHO MD - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
+MAGUINHO MD - 𝘼𝙎𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
 *${asistencia}*
 
 *---------------------*
