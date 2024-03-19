@@ -132,7 +132,7 @@ user.name = nombreWA.replace(/\s+/g, '').replace(/[0-9]+/gi, "").slice(1).trim()
 if (user.name) return conn.sendMessage(m.chat, {text: `${lenguajeGB['smsAvisoEG']()}🌟 *GENIAL!! SE HA COMPLETADO LO SIGUIENTE*\n*- - - - - - - - - - - - - - - - - - - - - - - - - - - -*\n\n*❖ NOME:*\n${user.name === 0 ? sinDefinir : user.name}\n\n🔢 *AGORA PODE REGISTRAR SUA IDADE, EXEMPLO:*\n\`\`\`${usedPrefix}idade 20\`\`\``}, {quoted: fkontak})
 }
 		
-if (command == 'idade' || command == 'idad' || command == 'idade' || command == 'idad2') {
+if (command == 'idade' || command == 'idade2' || command == '' || command == '') {
 if (verificar.test(text.slice(1)) == false && !text) return conn.sendMessage(m.chat, {text: `${lenguajeGB['smsAvisoIIG']()}*👉 AGREGUE SUA IDADE PARA REGISTRAR, EXEMPLO:*\n${usedPrefix}idade 20`}, {quoted: fkontak})
 if (isNaN(text)) return conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}*INGRESE SOLO NÚMEROS*`, fkontak, m)
 if (text > 90) return conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}*DEMASIADO MAYOR PARA SER REGISTRADO*`, fkontak, m)
@@ -208,7 +208,7 @@ yyr += `*╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈*`
 if (!text) {
 const { key } = await conn.sendMessage(m.chat, { text: yyr }, {quoted: fkontak})	
 await delay(1000)
-await conn.sendMessage(m.chat, { text: yyr + `\n\n✨ *AQUÍ UN EJEMPLO DE COMO SELECCIONAR:*\n\`\`\`${usedPrefix}identidad 4️⃣\`\`\`\n\`\`\`${usedPrefix}identidad 4\`\`\``, edit: key }, {quoted: fkontak}) 
+await conn.sendMessage(m.chat, { text: yyr + `\n\n✨ *AQUÍ UN EJEMPLO DE COMO SELECCIONAR:*\n\`\`\`${usedPrefix}identidade 4️⃣\`\`\`\n\`\`\`${usedPrefix}identidade 4\`\`\``, edit: key }, {quoted: fkontak}) 
 } 
 var identidadAsignada = asignarIdentidad(text)
 user.identidad = identidadAsignada
@@ -464,7 +464,7 @@ if (numero >= 1 && numero <= todosLosPasatiemposOrdenados.length) {
 return todosLosPasatiemposOrdenados[numero - 1]
 } else if (text.trim() !== "") {
 var pasatiempoIngresado = text.replace(/\D/g, '')
-conn.reply(m.chat, `${lenguajeGB['smsAvisoAG']()}*EL PASATIEMPO "${!pasatiempoIngresado ? 'CON LETRAS 🔡' : pasatiempoIngresado === undefined ? 'DE ALGUNA POSICIÓN' :  pasatiempoIngresado}" NO FORMA PARTE DE LA LISTA DE PASATIEMPOS*`, fkontak, m)
+conn.reply(m.chat, `${lenguajeGB['smsAvisoAG']()}*O PASATEMPO "${!pasatiempoIngresado ? 'COM LETRAS 🔡' : pasatiempoIngresado === undefined ? 'DE ALGUNA POSICIÓN' :  pasatiempoIngresado}" NO FORMA PARTE DE LA LISTA DE PASATIEMPOS*`, fkontak, m)
 return
 }}	
 var pasatiemposSet = new Set(todosLosPasatiempos)
@@ -589,7 +589,7 @@ renderLargerThumbnail: true
 }}}, { quoted: fkontak })
 await m.reply(`${sn}`)	
 }}
-handler.command = ['verify', 'verificar', 'register', 'registrar', 'reg', 'reg1', 'nome', 'name', 'nome2', 'name2', 'idade', '', 'idade2', '', 'genero', 'género', 'gender', 'identidade', 'pasatempo', 'hobby', 'identity', 'finalizar', 'pas2', 'pas3', 'pas4', 'pas5']  ///^(verify|verificar|reg(ister)?)$/i
+handler.command = ['verify', 'verificar', 'register', 'registrar', 'reg', 'reg1', 'nome', 'name', 'nome2', 'name2', 'idade', 'idade2', '', '', 'genero', 'género', 'gender', 'identidade', 'pasatempo', 'hobby', 'identity', 'finalizar', 'pas2', 'pas3', 'pas4', 'pas5']  ///^(verify|verificar|reg(ister)?)$/i
 export default handler
 
 function pickRandom(list) { 
