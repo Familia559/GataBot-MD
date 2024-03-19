@@ -55,7 +55,7 @@ conn.reply(m.chat, `*SU TIEMPO DE REGISTRO HA TERMINADO!!*\n\n_Si no continúa e
 if (user.registered === true) return conn.reply(m.chat, `${lenguajeGB['smsAvisoIIG']()}*VOCÊ JÁ ESTÁ REGISTRADO!!*\n*SI VOCÊ QUER APAGAR SEU REGISTRO, USE ESTE COMANDO*\n*${usedPrefix}unreg numero de serie*\n\n*SI NÃO LEMBRA SEU NÚMERO DE SERIE, USE ESTE COMANDO*\n*${usedPrefix}myns*`, fkontak, m)	
 
 if (command == 'verificar' || command == 'verify' || command == 'register' || command == 'reg' || command == 'registrar') {
-await conn.reply(m.chat, `*👀 COMO DESEJA REGISTRAR-SE?*\n\n📑 *REGISTRO RÁPIDO*\n• Insignia de verificação\n• Desbloquear comandos que requieran registro\n\n*Escreva para o registro rápido:*\n${usedPrefix}reg1 nome idade\n\n🗂️ *REGISTRO COMPLETO*\n• Insignia de verificação\n• Desbloquear comandos que requieran registro\n• Premium Temporal Gratis\n• Más opções para este registro\n\n*Escreva para o registro completo:*\n${usedPrefix}nome\n\n\`\`\`⭐ Considere que você terá algum tempo para concluir se registrar\`\`\``, fkontak, m)
+await conn.reply(m.chat, `*👀 COMO DESEJA REGISTRAR-SE?*\n\n📑 *REGISTRO RÁPIDO*\n• Insignia de verificação\n• Desbloquear comandos que requieran registro\n\n*Escreva para o registro rápido:*\n${usedPrefix}reg1 nome idade\n\n🗂️ *REGISTRO COMPLETO*\n• Insignia de verificação\n• Desbloquear comandos que requieran registro\n• Premium Temporal Gratis\n*⭐ Considere que você terá algum tempo para concluir se registrar\`\`\``, fkontak, m)
 }
 
 if (command == 'reg1') {
