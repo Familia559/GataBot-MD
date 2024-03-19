@@ -20,7 +20,7 @@ https://chat.whatsapp.com/IrireRmdD2T49uq7AJQmhc
 📢 *Canal de WhatsApp*
 https://chat.whatsapp.com/KSdxcdn16JVBKs3Ok4KROl
 
-💥 *Grupo de WhatsApp*
+💥 *Grupo da GataBoT*
 https://chat.whatsapp.com/IosaZb6yEXT6DSwRLkOfnS
 
 📧 *Correio*
