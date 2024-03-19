@@ -1,4 +1,4 @@
-import fs from 'fs'
+/*import fs from 'fs'
 //import fetch from 'node-fetch'
 let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //let pp = 'https://i.imgur.com/WwxBm8o.jpg' //'./media/menus/Menu1.jpg'
