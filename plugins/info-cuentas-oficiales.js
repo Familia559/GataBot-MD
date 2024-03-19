@@ -1,16 +1,16 @@
 let media = 'https://qu.ax/NqZN.mp4'
 let handler = async (m, { conn, command }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-let str = `💙 𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊(𝘼) 𝘼 𝙇𝘼𝙎 𝘾𝙐𝙀𝙉𝙏𝘼𝙎 𝙊𝙁𝙄𝘾𝙄𝘼𝙇𝙀𝙎
-💜 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𝙏𝙃𝙀 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇 𝘼𝘾𝘾𝙊𝙐𝙉𝙏𝙎
+let str = `💙 𝘽𝙀𝙉𝙑𝙄𝙉𝘿𝙊(𝘼) 𝘼 𝘼𝙎 𝘾𝙊𝙉𝙏𝘼𝙎 𝙊𝙁𝙄𝘾𝙄𝘼𝙄𝙎
+💜 𝐁𝐄𝐌-𝐕𝐈𝐍𝐃𝐎 𝐀𝐒  𝐎𝐅𝐈𝐂𝐈𝐀𝐈𝐒
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-💖 𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈
+💖 𝐌𝐀𝐆𝐔𝐈𝐍𝐇𝐎 𝐎𝐅𝐂 🐈
 ${bot}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ✅ *GITHUB*
 *${md}*
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-✅ *INSTAGRAM - ASISTENCIA*
+✅ *INSTAGRAM - ASSISTÊNCIA*
 *${ig}*
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ✅ *YOUTUBE*
