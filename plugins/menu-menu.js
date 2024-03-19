@@ -133,13 +133,13 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ➺ ${user.registered === true ? `_${user.registroC === true ? '🗂️ Registro Completo' : '📑 Registro Rápido'}_` : '❌ _Sin registro_'}
 
 *❰❰ Meu estado ❱❱*
-➺ ${typeof user.miestado !== 'string' ? '❌ *Establecer usando:* _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
+➺ ${typeof user.miestado !== 'string' ? '❌ *Estabelecer usando:* _' + usedPrefix + 'miestado_' : '_Me sinto ' + user.miestado + '_'}
 
 *❰❰ Registrado ❱❱*
-➺ ${user.registered === true ? '✅ Verificado' : '❌ *Establecer registro usando:* _' + usedPrefix + 'verificar_'}
+➺ ${user.registered === true ? '✅ Verificado' : '❌ *Estabelecer registro usando:* _' + usedPrefix + 'verificar_'}
 
 *❰❰ ${lenguajeGB['smsBotonM7']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM7']().slice(1).toLowerCase()} ❱❱* 
-➺ ${user.premiumTime > 0 ? '✅ Eres usuario Premium' : '❌ *Establecer Premium:* _' + usedPrefix + 'pase premium_'}
+➺ ${user.premiumTime > 0 ? '✅ Eres usuario Premium' : '❌ *Estabelecer Premium:* _' + usedPrefix + 'pase premium_'}
 
 *❰❰ ${lenguajeGB['smsBotonM5']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM5']().slice(1).toLowerCase()} ❱❱* 
 ➺ ${role}
@@ -155,28 +155,21 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 
 > 💫 *INFORMAÇÃO* 💫
 
-✓ _${usedPrefix}cuentasgatabot | cuentasgb_
-✓ _${usedPrefix}gruposgb | grupos | groupgb_
-✓ _${usedPrefix}donar | donate_
-✓ _${usedPrefix}listagrupos | grouplist_
-✓ _${usedPrefix}estado | heygata | status_
-✓ _${usedPrefix}infogata | infobot_
-✓ _${usedPrefix}instalarbot | installbot_
-✓ _${usedPrefix}creadora | owner_
+✓ _${usedPrefix}contasofc |
+✓ _${usedPrefix}grupos|
+✓ _${usedPrefix}donar |
+✓ _${usedPrefix}listagrupos |
+✓ _${usedPrefix}Status |
+✓ _${usedPrefix}infogata |
+✓ _${usedPrefix}criador |
 ✓ _${usedPrefix}velocidad | ping_
 ✓ _Bot_ 
-✓ _términos y condiciones_
 
 
 > 🆘 *REPORTAR COMANDOS* 🆘
 
 ✓ _${usedPrefix}reporte *texto*_
 ✓ _${usedPrefix}report *texto*_
-
-> 🪅 *UNIR GATABOT A UM GRUPO* 🪅
-
-✓ _${usedPrefix}botemporal *enlace* *cantidad*_
-✓ _${usedPrefix}addbot *enlace* *cantidad*_
 
 > 🎟️ *SER PREMIUM* 🎟️
 
@@ -269,7 +262,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}settings_
 ✓ _${usedPrefix}vergrupo_
 
-> 🪄 *DESCARGAS* 🪄
+> 🪄 *DOWNLOADS* 🪄
 
 ✓ _${usedPrefix}imagen | image *texto*_
 ✓ _${usedPrefix}pinterest | dlpinterest *texto*_
@@ -299,7 +292,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}fraseromantica_
 ✓ _${usedPrefix}historia_
 
-> 👤 *CHAT ANONIMO* 👤
+> 👤 *CHAT ANÔNIMO* 👤
 
 ✓ _${usedPrefix}chatanonimo | anonimochat_
 ✓ _${usedPrefix}anonimoch_
