@@ -143,8 +143,8 @@ if (verificar.test(text) == true) return conn.sendMessage(m.chat, {text: `${leng
 	
 if (command == 'genero' || command == 'género' || command == 'gender') {
 let genText = `🌟 *SELECCIONA TU GÉNERO!!*
-1️⃣ ️▸ _🚹 MASCULINO (Hombre)_
-2️⃣ ▸ _🚺 FEMENINO (Mujer)_
+1️⃣ ️▸ _🚹 MASCULINO (Home)_
+2️⃣ ▸ _🚺 FEMENINO (Mulher)_
 3️⃣ ▸ _👤 OCULTAR GÉNERO (Omitir)_\n
 🌟 *PUEDE USAR EL EMOJI NUMÉRICO O TEXTO NUMÉRICO PARA ELEGIR SU GÉNERO EJEMPLO:*
 ✓ \`\`\`${usedPrefix}genero 2️⃣\`\`\`
@@ -156,12 +156,12 @@ switch (text) {
 case "1️⃣":
 case "1":
 case "🚹":
-genero = "Hombre"
+genero = "Home"
 break
 case "2️⃣":
 case "2":
 case "🚺":
-genero = "Mujer"
+genero = "Mulher"
 break
 case "3️⃣":
 case "3":
@@ -509,7 +509,7 @@ if (pasatiemposSeleccionados.length >= 1 && pasatiemposSeleccionados.length <= 5
 //console.log("Pasatiempos seleccionados:", resultado)
 user.pasatiempo = resultado
 global.db.data.users[m.sender]['registroC'] = true
-conn.sendMessage(m.chat, {text: `${lenguajeGB['smsAvisoEG']()}*GENIAL!! SE HA AGREGADO LOS PASATIEMPOS*\n*- - - - - - - - - - - - - - - - - - - - - - - - - - - -*\n\n*${user.pasatiempo === 0 ? sinDefinir : user.pasatiempo}*\n\n🌟 *PARA GUARDAR SU REGISTRO ESCRIBA:*\n\`\`\`${usedPrefix}finalizar\`\`\``}, {quoted: fkontak})	
+conn.sendMessage(m.chat, {text: `${lenguajeGB['smsAvisoEG']()}*GENIAL!! SE HA AGREGADO LOS PASATIEMPOS*\n*- - - - - - - - - - - - - - - - - - - - - - - - - - - -*\n\n*${user.pasatiempo === 0 ? sinDefinir : user.pasatiempo}*\n\n🌟 *PARA GUARDAR SEU REGISTRO ESCREVA:*\n\`\`\`${usedPrefix}finalizar\`\`\``}, {quoted: fkontak})	
 //console.log("Pasatiempos por separado:", pas1, pas2, pas3, pas4, pas5)
 }else{
 conn.reply(m.chat, `${lenguajeGB['smsAvisoAG']()}*EL PASATIEMPO "${pasatiempoSeleccionado === undefined ? 'DE ALGUNA POSICIÓN' : pasatiempoSeleccionado }" YA HA SIDO SELECCIONADO*`, fkontak, m)
@@ -533,8 +533,8 @@ hora = `${time}`
 user.tiempo = fecha + hora
 user.name = user.name === 0 ? sinDefinir : user.name + 'ͧͧͧͦꙶͣͤ✓ᚲᴳᴮ'
 user.descripcion = bio
-user.age = user.age === 0 ? sinDefinir : user.age >= 18 ? user.age += ' Años *||* ' + '(Persona Adulta)' : user.age += ' Años *||* ' + '(Persona Joven)'
-user.genero = user.genero === 0 ? sinDefinir : user.genero == 'Ocultado' ? `${user.genero} 🕶️` : user.genero == 'Mujer' ? `${user.genero} 🚺` : user.genero == 'Hombre' ? `${user.genero} 🚹` : sinDefinir
+user.age = user.age === 0 ? sinDefinir : user.age >= 18 ? user.age += ' Anos *||* ' + '(Pessoa Adulta)' : user.age += ' Anos *||* ' + '(Pessoa Joven)'
+user.genero = user.genero === 0 ? sinDefinir : user.genero == 'Ocultado' ? `${user.genero} 🕶️` : user.genero == 'Mulher' ? `${user.genero} 🚺` : user.genero == 'Homem' ? `${user.genero} 🚹` : sinDefinir
 user.identidad = user.identidad === 0 ? sinDefinir : user.identidad
 user.pasatiempo = user.pasatiempo === 0 ? sinDefinir : user.pasatiempo
 }else{
@@ -542,7 +542,7 @@ fecha = `${week}, ${date} || `
 hora = `${time}`
 user.tiempo = fecha + hora
 user.name = user.name === 0 ? sinDefinir : user.name + 'ͧͧͧͦꙶͣͤ✓ᚲᴳᴮ'
-user.age = user.age === 0 ? sinDefinir : user.age >= 18 ? user.age += ' Años *||* ' + '(Persona Adulta)' : user.age += ' Años *||* ' + '(Persona Joven)'
+user.age = user.age === 0 ? sinDefinir : user.age >= 18 ? user.age += ' Años *||* ' + '(Persona Adulta)' : user.age += ' Anos *||* ' + '(Pessoa Joven)'
 user.descripcion = bio	
 }
 user.regTime = + new Date
@@ -551,13 +551,13 @@ let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)
 registrando = false
 clearInterval(intervalId)	
 await conn.sendMessage(m.chat, {
-text: `🍃 \`\`\`VERIFICACIÓN EXITOSA\`\`\` 🍃
+text: `🍃 \`\`\`𝚅𝙴𝚁𝙸𝙵𝙸𝙲𝙰𝙲̧𝙰̃𝙾 𝙱𝙴𝙼 𝚂𝚄𝙲𝙴𝙳𝙸𝙳𝙰\`\`\` 🍃
 *- - - - - - - - - - - - - - - - - - - - - - - - - - - -*\n
 😼 *REGISTRADO POR*
 ❱❱ ${wm}\n
 📑 *TIPO DE REGISTRO* 
 ❱❱ ${user.registroC === true ? '𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖 𝘊𝘖𝘔𝘗𝘓𝘌𝘛𝘖' : '𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖 𝘙𝘈𝘗𝘐𝘋𝘖'}\n
-⌛ *FECHA/HORA*
+⌛ *FICHA/HORA*
 ❱❱ ${user.tiempo}\n
 🛅 *CÓDIGO DE REGISTRO*
 ❱❱ ${sn}\n
