@@ -15,7 +15,7 @@ https://chat.whatsapp.com/Ix8PiZQCjhl0uKTs76dfHD
 
 
 ⚙️ *Suporte*
-
+https://chat.whatsapp.com/IrireRmdD2T49uq7AJQmhc
 
 📢 *Canal de WhatsApp*
 https://chat.whatsapp.com/KSdxcdn16JVBKs3Ok4KROl
