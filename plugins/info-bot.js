@@ -6,7 +6,7 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let chat = global.db.data.chats[m.chat]
 if (chat.isBanned) return
 let vn = 'https://qu.ax/kTuW.mp3'
-let bot = `${pickRandom([`*𝐎𝐈 𝐂𝐀𝐑𝐀𝐈 𝐏𝐎𝐃𝐄 𝐅𝐀𝐋𝐀 𝐄𝐔 𝐓𝐎 𝐀𝐐𝐔𝐈 👽*`, `𝐓𝐎̂ 𝐀𝐐𝐔𝐈 𝐌𝐀𝐍𝐎 Falando do meu mestre 😼`])}
+let bot = `${pickRandom([`*𝐎𝐈 𝐂𝐀𝐑𝐀𝐈 𝐏𝐎𝐃𝐄 𝐅𝐀𝐋𝐀 𝐄𝐔 𝐓𝐎 𝐀𝐐𝐔𝐈 👽*`, `𝐓𝐎̂ 𝐀𝐐𝐔𝐈 𝐌𝐀𝐍𝐎 😼`])}
 `.trim()
 const estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) },
 message: { 
@@ -17,7 +17,7 @@ message: {
 "audioMessage": { "mimetype":"audio/ogg; codecs=opus", "seconds": "99569", "ptt": "true"   
 }}}  
 
-if (/^maguinho$/^bot$/i.test(m.text)) {
+if (/^bot$/i.test(m.text)) {
     
 conn.sendPresenceUpdate('recording', m.chat)    
 await conn.sendMessage(m.chat, {text: bot,mentions: [m.sender]}, {quoted: fkontak})
