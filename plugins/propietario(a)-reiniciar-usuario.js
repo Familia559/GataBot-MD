@@ -10,7 +10,7 @@ var number = text
 }
 
 if(!text && !m.quoted) return conn.reply(m.chat, `*MARQUE O USUÁRIO, DIGITE SEU NÚMERO OU RESPONDA À MENSAGEM PARA RESET DE DADOS*`, m)
-if(isNaN(number)) return conn.reply(m.chat, `*EL NÚMERO QIE INGRESÓ NO ES VÁLIDO PARA REINICIAR LOS DATOS*`, m)
+if(isNaN(number)) return conn.reply(m.chat, `*O NÚMERO INSERIDO NÃO É VÁLIDO PARA REINICIAR OS DADOS*`, m)
 try {
 if(text) {
 var user = number + '@s.whatsapp.net'
