@@ -9,7 +9,7 @@ if (chat.isBanned) return
 
 if (/^maguinho/i.test(m.text) ) { //sin prefijo 
     let teks = `
-${pickRandom([`𝑶𝑷𝑨 𝑶𝑸𝑼𝑬 𝑽𝑶𝑪𝑬̂ 𝑸𝑼𝑬𝑹 𝑪𝑶𝑴 𝑴𝑬𝑼 𝑴𝑬𝑺𝑻𝑹𝑬`])}
+${pickRandom([`𝑶𝑷𝑨, 𝑶𝑸𝑼𝑬 𝑽𝑶𝑪𝑬̂ 𝑸𝑼𝑬𝑹 𝑪𝑶𝑴 𝑴𝑬𝑼 𝑴𝑬𝑺𝑻𝑹𝑬?`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
