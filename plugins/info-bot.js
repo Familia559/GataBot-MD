@@ -6,7 +6,7 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let chat = global.db.data.chats[m.chat]
 if (chat.isBanned) return
 let vn = 'https://qu.ax/kTuW.mp3'
-let bot = `${pickRandom([`*𝐎𝐈 𝐂𝐀𝐑𝐀𝐈 𝐏𝐎𝐃𝐄 𝐅𝐀𝐋𝐀 𝐄𝐔 𝐓𝐎 𝐀𝐐𝐔𝐈 👽*`, `𝐓𝐎̂ 𝐀𝐐𝐔𝐈 𝐌𝐀𝐍𝐎 😼`])}
+let bot = `${pickRandom([`*𝐎𝐈 𝐂𝐀𝐑𝐀𝐈 𝐏𝐎𝐃𝐄 𝐅𝐀𝐋𝐀 𝐄𝐔 𝐓𝐎 𝐀𝐐𝐔𝐈 👽*`, `𝐓𝐎̂ 𝐀𝐐𝐔𝐈 𝐌𝐀𝐍𝐎 Falando do meu mestre 😼`])}
 `.trim()
 const estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) },
 message: { 
@@ -20,7 +20,7 @@ message: {
 if (/^bot$/i.test(m.text)) {
     
 conn.sendPresenceUpdate('recording', m.chat)    
-await conn.sendMessage(m.chat, {text: bot, mentions: [m.sender]}, {quoted: fkontak})
+await conn.sendMessage(m.chat, {text: bot,n\ maguinho .mentions: [m.sender]}, {quoted: fkontak})
 //conn.sendButton(m.chat, `¡𝑬𝒚! 𝑨𝒒𝒖í 𝒆𝒔𝒕𝒐𝒚. 𝒀𝒐 𝒑𝒖𝒆𝒅𝒐 𝒂𝒚𝒖𝒅𝒂𝒓 👉👈 𝑯𝒆𝒚! 𝑰'𝒎 𝒉𝒆𝒓𝒆. 𝑰 𝒄𝒂𝒏 𝒉𝒆𝒍𝒑 🙌`, wm, [['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', `#menu`]], 'conversation', { sendEphemeral: true, quoted: estilo })
 conn.sendFile(m.chat, vn, 'bot.mp3', null, m, true, { type: 'audioMessage', ptt: true, sendEphemeral: true, quoted: estiloaudio })   
 }
