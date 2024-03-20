@@ -8,7 +8,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //} catch (e) {
 
 //} finally { }
-  await m.reply(`╰⊱⚠️⊱ *𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼 |* ⊱⚠️⊱╮`)
+  await m.reply(`╰⊱⚠️⊱ *𝑺𝑬𝑱𝑨𝑴 𝑩𝑬𝑴 𝑽𝑰𝑵𝑫𝑶𝑺 |* ⊱⚠️⊱╮`)
   //conn.sendButton(m.chat, str, author, await(await fetch(pp)).buffer(), [['Menu', '/menu']], m)
 let text = `
 *As funções | #bots !serbot. Eles não estão disponíveis em* ${gt}`.trim()   
