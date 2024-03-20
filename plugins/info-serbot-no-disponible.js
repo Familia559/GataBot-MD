@@ -11,7 +11,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   await m.reply(`╰⊱⚠️⊱ *𝑺𝑬𝑱𝑨𝑴 𝑩𝑬𝑴 𝑽𝑰𝑵𝑫𝑶𝑺 |* ⊱⚠️⊱╮`)
   //conn.sendButton(m.chat, str, author, await(await fetch(pp)).buffer(), [['Menu', '/menu']], m)
 let text = `
-*As funções | #bots !serbot. Eles não estão disponíveis em* ${gt}`.trim()   
+*As funções | #bots !serbot. Elas não estão disponíveis em* ${gt}`.trim()   
 conn.reply(m.chat, text, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨',
@@ -30,5 +30,5 @@ sourceUrl: `${yt}`}}})
   
   //await conn.sendButton(m.chat, `Infórmate sobre las Novedades y recuerda tener la última versión.\nFind out about what's new and remember to have the latest version.`, author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', /${command}], ['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 2 🔄', /${command}]], m)
 }
-handler.command = /^(yafunka:3)/i
+handler.command = /^(magogrupos)/i
 export default handler
