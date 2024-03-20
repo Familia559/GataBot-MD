@@ -11,7 +11,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   await m.reply(`╰⊱⚠️⊱ *𝑺𝑬𝑱𝑨𝑴 𝑩𝑬𝑴 𝑽𝑰𝑵𝑫𝑶𝑺 |* ⊱⚠️⊱╮`)
   //conn.sendButton(m.chat, str, author, await(await fetch(pp)).buffer(), [['Menu', '/menu']], m)
 let text = `
-*As funções | #bots !serbot. Elas não estão disponíveis em* ${gt}`.trim()   
+*As funções | !bots !serbot. Elas não estão disponíveis em* ${gt}`.trim()   
 conn.reply(m.chat, text, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨',
@@ -19,7 +19,7 @@ body: 'Super Bot WhatsApp',
 previewType: 1, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
 sourceUrl: `${yt}`}}})  
   
-  let info = `*Como o #serbot não está disponível, agora você pode juntar o número deste bot ao seu grupo temporariamente usando o comando*\n*#botemporal o #bottemporal*
+  let info = `*Como o !serbot não está disponível, agora você pode juntar o número deste bot ao seu grupo temporariamente usando o comando*\n*!botemporal ou !bottemporal*
   `.trim()
   
   await conn.sendHydrated(m.chat, info, wm, null, ig, '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', null, null, [
