@@ -19,7 +19,7 @@ body: 'Super Bot WhatsApp',
 previewType: 1, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
 sourceUrl: `${yt}`}}})  
   
-  let info = `*Ya que no esta disponible el #serbot, Ahora podrás unir el Número de este Bot a tú Grupo de manera Temporal usando el comando*\n*#botemporal o #bottemporal*
+  let info = `*Como o #serbot não está disponível, agora você pode juntar o número deste bot ao seu grupo temporariamente usando o comando*\n*#botemporal o #bottemporal*
   `.trim()
   
   await conn.sendHydrated(m.chat, info, wm, null, ig, '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', null, null, [
