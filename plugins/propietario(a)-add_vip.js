@@ -47,7 +47,7 @@ if (command == 'addprem' || command == 'userpremium') {
 if (now < user.premiumTime) user.premiumTime += hora1
 else user.premiumTime = now + hora1
 user.premium = true
-conn.reply(m.chat,  `*🎟️ 𝙐𝙎𝙏𝙀𝘿 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙋𝙍𝙀𝙈𝙄𝙐𝙈!!!*
+conn.reply(m.chat,  `*🎟️ 𝑨𝑮𝑶𝑹𝑨 𝑽𝑶𝑪𝑬̂ 𝑬́ 𝑷𝑹𝑬𝑴𝑰𝑼𝑴!!!*
 
 *✨ 𝙉𝙊𝙈𝙀 :  » ${name}*
 *🕐 𝙏𝙀𝙈𝙋𝙊 :  »* ${msToTime(hora1 - new Date())}
@@ -57,7 +57,7 @@ if (command == 'addprem2' || command == 'userpremium2') {
 if (now < user.premiumTime) user.premiumTime += dia1
 else user.premiumTime = now + dia1
 user.premium = true
-conn.reply(m.chat,  `*🎟️ 𝙐𝙎𝙏𝙀𝘿 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙋𝙍𝙀𝙈𝙄𝙐𝙈!!!*
+conn.reply(m.chat,  `*🎟️ 𝑨𝑮𝑶𝑹𝑨 𝑽𝑶𝑪𝑬̂ 𝑬́ 𝑷𝑹𝑬𝑴𝑰𝑼𝑴!!!*
 
 *✨ 𝙉𝙊𝙈𝙀 : » ${name}*
 *🕐 𝙏𝙀𝙈𝙋𝙊 : » ${msToTime(dias1 - new Date())}*
@@ -67,7 +67,7 @@ if (command == 'addprem3' || command == 'userpremium3') {
 if (now < user.premiumTime) user.premiumTime += semana1
 else user.premiumTime = now + semana1
 user.premium = true
-conn.reply(m.chat,  `*🎟️ 𝙐𝙎𝙏𝙀𝘿 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙋𝙍𝙀𝙈𝙄𝙐𝙈!!!*
+conn.reply(m.chat,  `*🎟️ 𝑨𝑮𝑶𝑹𝑨 𝑽𝑶𝑪𝑬̂ 𝑬́ 𝑷𝑹𝑬𝑴𝑰𝑼𝑴!!!*
 
 *✨ 𝙉𝙊𝙈𝙀 : » ${name}*
 *🕐 𝙏𝙀𝙈𝙋𝙊 : » ${msToTime(semana1 - new Date())}*
@@ -78,7 +78,7 @@ if (command == 'addprem4' || command == 'userpremium4') {
 if (now < user.premiumTime) user.premiumTime += mes1
 else user.premiumTime = now + mes1
 user.premium = true
-conn.reply(m.chat,  `*🎟️ 𝙐𝙎𝙏𝙀𝘿 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙋𝙍𝙀𝙈𝙄𝙐𝙈!!!*
+conn.reply(m.chat,  `*🎟️ 𝑨𝑮𝑶𝑹𝑨 𝑽𝑶𝑪𝑬̂ 𝑬́ 𝑷𝑹𝑬𝑴𝑰𝑼𝑴!!!*
 
 *✨ 𝙉𝙊𝙈𝙀 : » ${name}*
 *🕐 𝙏𝙀𝙈𝙋𝙊 : » ${msToTime(mes1 - new Date())}*
