@@ -1,4 +1,4 @@
-/*import fs from 'fs'
+import fs from 'fs'
 //import fetch from 'node-fetch'
 let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //let pp = 'https://i.imgur.com/WwxBm8o.jpg' //'./media/menus/Menu1.jpg'
@@ -8,7 +8,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //} catch (e) {
 
 //} finally { }
-  await m.reply(`╰⊱⚠️⊱ *𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼 | 𝙒𝘼𝙍𝙉𝙄𝙉𝙂* ⊱⚠️⊱╮`)
+  await m.reply(`╰⊱⚠️⊱ *𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼 |* ⊱⚠️⊱╮`)
   //conn.sendButton(m.chat, str, author, await(await fetch(pp)).buffer(), [['Menu', '/menu']], m)
 let text = `
 *Las funciones | The functions #jadibot #bots #serbot #subbot #getcode. No estan disponibles en | Are not available in* ${gt}`.trim()   
