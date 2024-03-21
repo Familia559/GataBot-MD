@@ -116,50 +116,50 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃🔊 _*MENU DE AUDIOS*_ 🔊
 ┃➺ _${usedPrefix}menuaudio |
 ┃
-┃💫 _${lenguajeGB['smsTex13']()}_ 💫
-┃➺ _${usedPrefix}infomenu_
+┃💫 _*MENU DE INFORMAÇÃO*_💫
+┃➺ _${usedPrefix}infomenu |
 ┃
-┃🚀 _${lenguajeGB['smsTex9']()}_ 🚀
-┃➺ _${usedPrefix}menudownload_
+┃🚀 _*MENU DE DOWNLOADS*_ 🚀
+┃➺ _${usedPrefix}menudownload |
 ┃
-┃🔐 _${lenguajeGB['smsTex11']()}_ 🔐
-┃➺ _${usedPrefix}grupomenu_
+┃🔐 _*MENU DO GRUPO*_ 🔐
+┃➺ _${usedPrefix}grupomenu |
 ┃
-┃🧸 _${lenguajeGB['smsTex22']()}_ 🧸
-┃➺ _${usedPrefix}menusticker_
+┃🧸 _*MENU DE STICKER*_ 🧸
+┃➺ _${usedPrefix}menusticker |
 ┃
-┃🛠️ _${lenguajeGB['smsTex12']()}_ 🛠️
-┃➺ _${usedPrefix}menuferramentas_
+┃🛠️ _*MENU DE FERRAMENTAS*_ 🛠️
+┃➺ _${usedPrefix}menuferramentas |
 ┃
-┃⛩️ _${lenguajeGB['smsTex23']()}_ ⛩️
-┃➺ _${usedPrefix}menurandom_
+┃⛩️ _*MENU RANDOM*_ ⛩️
+┃➺ _${usedPrefix}menurandom |
 ┃
-┃🛰️ _${lenguajeGB['smsTex8']()}_ 🛰️
-┃➺ _${usedPrefix}menuconvertidor_
+┃🛰️ _*MENU CONVERTIDOR*_ 🛰️
+┃➺ _${usedPrefix}menuconvertidor |
 ┃
-┃🎈 _${lenguajeGB['smsTex1']()}_🎈
-┃➺ _${usedPrefix}menubuscar_
+┃🎈 _*MENU DE BUSCAR*_🎈
+┃➺ _${usedPrefix}menubuscar |
 ┃
-┃🎧 _${lenguajeGB['smsTex2']()}_ 🎧
-┃➺ _${usedPrefix}menuaudiosefeito_
+┃🎧 _*MENU EFEITOS DE AUDIOS*_ 🎧
+┃➺ _${usedPrefix}menuaudiosefeito |
 ┃
-┃🔞 _${lenguajeGB['smsTex3']()}_ 🔞
-┃➺ _${usedPrefix}menu18 | menuhorny_
+┃🔞 _*MENU +18*_ 🔞
+┃➺ _${usedPrefix}menu18 | menuhorny |
 ┃
-┃⚗️ _${lenguajeGB['smsTex21']()}_ ⚗️
-┃➺ _${usedPrefix}menurpg_
+┃⚗️ _*MENU RPG*_ ⚗️
+┃➺ _${usedPrefix}menurpg |
 ┃
-┃⛺ _${lenguajeGB['smsTex14']()}_ ⛺
-┃➺ _${usedPrefix}menumaker_
+┃⛺ _*MENU MAKER*_ ⛺
+┃➺ _${usedPrefix}menumaker |
 ┃
-┃💮 _${lenguajeGB['smsTex15']()}_ 💮
-┃➺ _${usedPrefix}menulogos2_
+┃💮 _*MENU LOGO*_ 💮
+┃➺ _${usedPrefix}menulogos2 |
 ┃
 ┃🌅 _${lenguajeGB['smsTex15']()}_ 🌅
 ┃➺ _${usedPrefix}menulogos2_
 ┃
-┃💎 _${lenguajeGB['smsTex20']()}_ 💎
-┃➺ _${usedPrefix}menudono_
+┃💎 _*MENU PROPRIETÁRIO*_ 💎
+┃➺ _${usedPrefix}menudono |
 ┃
 ┃✅ *_CONTAS OFICIAIS GATABOT_* ✅
 ┃➺ _${usedPrefix}contasofc | criador_
