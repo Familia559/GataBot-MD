@@ -364,7 +364,6 @@ let menuA = `🔰 ${lenguajeGB['smsConfi2']()} *${username}*
 ∘ _${usedPrefix}add *numero*_
 ∘ _${usedPrefix}sacar | ban | kick  *@tag*_
 ∘ _${usedPrefix}grupo *abrir : cerrar*_
-∘ _${usedPrefix}group *open : close*_
 ∘ _${usedPrefix}daradmin | promote *@tag*_
 ∘ _${usedPrefix}quitar | demote *@tag*_
 ∘ _${usedPrefix}banchat_
@@ -375,20 +374,20 @@ let menuA = `🔰 ${lenguajeGB['smsConfi2']()} *${username}*
 ∘ _${usedPrefix}invocar *texto*_
 ∘ _${usedPrefix}tagall *texto*_
 ∘ _${usedPrefix}hidetag *texto*_
-∘ _${usedPrefix}infogrupo | infogroup_
-∘ _${usedPrefix}grupotiempo | grouptime *Cantidad*_
+∘ _${usedPrefix}infogrupo |
+∘ _${usedPrefix}grupotiempo | *Cantidad*_
 ∘ _${usedPrefix}advertencia *@tag*_
 ∘ _${usedPrefix}deladvertencia *@tag*_
 ∘ _${usedPrefix}delwarn *@tag*_
 ∘ _${usedPrefix}crearvoto | startvoto *texto*_
 ∘ _${usedPrefix}sivotar | upvote_
 ∘ _${usedPrefix}novotar | devote_
-∘ _${usedPrefix}vervotos | cekvoto_
+∘ _${usedPrefix}vervotos |
 ∘ _${usedPrefix}delvoto | deletevoto_
 ∘ _${usedPrefix}enlace | link_
-∘ _${usedPrefix}newnombre | nuevonombre *texto*_
-∘ _${usedPrefix}newdesc | descripcion *texto*_
-∘ _${usedPrefix}setwelcome | bienvenida *texto*_
+∘ _${usedPrefix}newnombre | novonome *texto*_
+∘ _${usedPrefix}newdesc | descrição *texto*_
+∘ _${usedPrefix}setwelcome | benvinda *texto*_
 ∘ _${usedPrefix}setbye | despedida *texto*_
 ∘ _${usedPrefix}nuevoenlace | resetlink_
 ∘ _${usedPrefix}on_
@@ -398,7 +397,7 @@ await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menuA, fkontak, false
 //conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
-} if (command == 'ferramentasmenu'){ //herramientas
+} if (command == 'menuferramentas'){ //herramientas
 let menuA = `🔩 ${lenguajeGB['smsConfi2']()} *${username}*
 
 ╭┄〔 *${wm}* 〕┄⊱
@@ -571,7 +570,7 @@ await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menuA, fkontak, false
 //conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
-} if (command == 'randommenu'){ //randomm
+} if (command == 'menurandom'){ //randomm
 let menuA = `⛩️ ${lenguajeGB['smsConfi2']()} *${username}*
 
 ╭┄〔 *${wm}* 〕┄⊱
@@ -638,7 +637,7 @@ await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menuA, fkontak, false
 //conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
-} if (command == 'rpgmenu'){ //rpg
+} if (command == 'menurpg'){ //rpg
 let menuA = `🪅 ${lenguajeGB['smsConfi2']()} *${username}*
 
 ╭┄〔 *${wm}* 〕┄⊱
@@ -694,7 +693,7 @@ await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menuA, fkontak, false
 //conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
 
 
-} if (command == 'stickermenu'){ //sticker
+} if (command == 'menusticker'){ //sticker
 let menuA = `🧸 ${lenguajeGB['smsConfi2']()} *${username}*
 
 ╭┄〔 *${wm}* 〕┄⊱
@@ -740,8 +739,8 @@ console.log(e)}
 }
 handler.help = ['infomenu'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
-handler.command = ['audioefectomenu', 'buscarmenu', 'hornymenu', 'listaporno', 'listhorny', 'convertidormenu', 'descargasmenu', 'juegosmenu', 'grupomenu',
-'herramientasmenu', 'infomenu', 'makermenu', 'menulogos2', 'ownermenu', 'randommenu', 'rpgmenu', 'stickermenu', 'menu18', 'menugrupo'] 
+handler.command = ['menuaudiosefeito', 'menubuscar', 'menuhorny', 'listaporno', 'listhorny', 'menuconvertidor', 'menudownload', '', 'menuadm',
+'menuferramentas', 'infomenu', 'menumaker', 'menulogos2', 'menudono', 'randommenu', 'menurpg', 'menusticker', 'menu18', 'menugrupo'] 
 //handler.register = true
 handler.exp = 50
 export default handler
