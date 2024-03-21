@@ -214,12 +214,6 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}on *o* off *apenasprivados | pconly*_
 ✓ _${usedPrefix}on *o* off *apenasgrupos | gconly*_
 
-> 🧾 *AJUSTES/INFO - GRUPO* 🧾
-
-✓ _${usedPrefix}configuracion_
-✓ _${usedPrefix}settings_
-✓ _${usedPrefix}vergrupo_
-
 > 🪄 *DOWNLOADS* 🪄
 
 ✓ _${usedPrefix}imagen | image *texto*_
