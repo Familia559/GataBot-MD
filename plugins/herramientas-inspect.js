@@ -11,8 +11,8 @@ let handler = async (m, { conn, text }) => {
 	if (pp) return conn.sendMessage(m.chat, { image: { url: pp }, caption: txt }, { quoted: m })
 	let groupinfo = `*┏━━━━━━━━━━━━━━━┓*
 *┃☂️ ⫹⫺ ID: ${data.id}*
-*┃🧪 ⫹⫺ Nombre: ${data.subject}*
-*┃📅 ⫹⫺ Creado: ${data.creation}*
+*┃🧪 ⫹⫺ Nome: ${data.subject}*
+*┃📅 ⫹⫺ Criador: ${data.creation}*
 *┃👑 ⫹⫺ Owner: ${data.owner}*
 *┃👇 ⫹⫺ La descripción se enviarán a continuación 👇👇👇*
 *┗━━━━━━━━━━━━━━━┛*`
