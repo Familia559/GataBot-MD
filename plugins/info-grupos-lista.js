@@ -45,8 +45,8 @@ ${lenguajeGB.smsLisG()} ${isBotAdmin ? 'Error' : 'NO SOY ADMINISTRADOR'}\n\n`
 m.reply(`${packname} ${lenguajeGB.smsLisA()}
 ${lenguajeGB.smsLisB()} ${totalGroups}\n\n${txt}`.trim());
 }}
-handler.help = ['groups', 'grouplist']
-handler.tags = ['info']
+handler.help = ['grupos', 'gruposlist']
+handler.tags = ['inf']
 handler.command = /^(groups|grouplist|listadegrupo|gruposlista|listagrupos|listadegrupos|grupolista|listagrupo)$/i
 handler.exp = 5
 handler.register = true
