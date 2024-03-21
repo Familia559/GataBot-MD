@@ -160,9 +160,9 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}donar |
 ✓ _${usedPrefix}listagrupos |
 ✓ _${usedPrefix}Status |
-✓ _${usedPrefix}infogata |
+✓ _${usedPrefix}infobot |
 ✓ _${usedPrefix}criador |
-✓ _${usedPrefix}velocidad | ping_
+✓ _${usedPrefix}ping |
 ✓ _Bot_ 
 
 
@@ -177,48 +177,6 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}pase premium_
 ✓ _${usedPrefix}pass premium_
 
-> 🎡 *JOGOS* 🎡
-
-✓ _${usedPrefix}mates | matemáticas | math_
-✓ _${usedPrefix}lanzar *cara* | *cruz*_
-✓ _${usedPrefix}ppt *piedra : papel : tijera*_
-✓ _${usedPrefix}tictactoe | ttt *sala*_
-✓ _${usedPrefix}deltictactoe | delttt_
-✓ _${usedPrefix}topgays_
-✓ _${usedPrefix}topotakus_
-✓ _${usedPrefix}toppajer@sedPrefix}topintegrantes | topintegrante_
-✓ _${usedPrefix}toplagrasa | topgrasa_
-✓ _${usedPrefix}toppanasfrescos | toppanafresco_
-✓ _${usedPrefix}topshiposters | topshipost_
-✓ _${usedPrefix}toplindos | toplind@s_
-✓ _${usedPrefix}topfamosos | topfamos@s_
-✓ _${usedPrefix}topparejas | top5parejas_
-✓ _${usedPrefix}gay | gay *@tag*_
-✓ _${usedPrefix}gay2 *nombre : @tag*_
-✓ _${usedPrefix}lesbiana *nombre : @tag*_
-✓ _${usedPrefix}manca *nombre : @tag*_
-✓ _${usedPrefix}manco *nombre : @tag*_
-✓ _${usedPrefix}pajero *nombre : @tag*_
-✓ _${usedPrefix}pajera *nombre : @tag*_
-✓ _${usedPrefix}puto *nombre : @tag*_
-✓ _${usedPrefix}puta *nombre : @tag*_
-✓ _${usedPrefix}rata *nombre : @tag*_
-✓ _${usedPrefix}love *nombre : @tag*_
-✓ _${usedPrefix}doxear *nombre : @tag*_
-✓ _${usedPrefix}doxxeame_
-✓ _${usedPrefix}pregunta *texto*_
-✓ _${usedPrefix}apostar | slot *cantidad*_
-✓ _${usedPrefix}formarpareja_
-✓ _${usedPrefix}dado_
-✓ _${usedPrefix}verdad_
-✓ _${usedPrefix}acertijo_
-✓ _${usedPrefix}cancion_
-✓ _${usedPrefix}trivia_
-✓ _${usedPrefix}pelicula_
-✓ _${usedPrefix}adivinanza_
-✓ _${usedPrefix}reto_
-✓ _${usedPrefix}ruleta_
-✓ _${usedPrefix}suerte_
 
 > ✨ *IA* ✨
 
@@ -228,7 +186,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 
 > ⚙️ *AJUSTES* ⚙️
 
-✓ _${usedPrefix}on *o* off *bienvenida | welcome*_
+✓ _${usedPrefix}on *o* off *welcome | bemvindos*_
 ✓ _${usedPrefix}on *o* off *avisos | detect*_
 ✓ _${usedPrefix}on *o* off *autonivel | autolevelup*_
 ✓ _${usedPrefix}on *o* off *restringir | restrict*_
@@ -253,8 +211,8 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}on *o* off *antifacebook | antifb*_
 ✓ _${usedPrefix}on *o* off *antinstagram | antig*_
 ✓ _${usedPrefix}on *o* off *antitwitter | antitw*_
-✓ _${usedPrefix}on *o* off *soloprivados | pconly*_
-✓ _${usedPrefix}on *o* off *sologrupos | gconly*_
+✓ _${usedPrefix}on *o* off *apenasprivados | pconly*_
+✓ _${usedPrefix}on *o* off *apenasgrupos | gconly*_
 
 > 🧾 *AJUSTES/INFO - GRUPO* 🧾
 
