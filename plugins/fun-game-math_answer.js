@@ -1,4 +1,4 @@
-global.math = global.math ? global.math : {}
+/*global.math = global.math ? global.math : {}
 let handler = async (m, { conn }) => {
   
 let id = m.chat
