@@ -1,4 +1,4 @@
-let handler = async (m, { conn, isOwner }) => {
+/*let handler = async (m, { conn, isOwner }) => {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender  
 let user = conn.getName(m.sender)
 let pareja = global.db.data.users[m.sender].pasangan 
@@ -13,6 +13,6 @@ await conn.reply(m.chat, caption, m, { mentions: await conn.parseMention(caption
 /*await conn.sendButton(m.chat, caption, `💟 𝗠𝗜 𝗣𝗔𝗥𝗘𝗝𝗔 ⇢ ${pareja ? `*${user} 💞 ${conn.getName(pareja)}*` : `❌ *No tiene Pareja*`}\n${wm}`, null, [ 
 ['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], m, { mentions: await conn.parseMention(caption) })*/
 }
-handler.command = /^(listapareias|listarelacion|listship|listpareja)$/i
+/*handler.command = /^(listapareias|listarelacion|listship|listpareja)$/i
 
 export default handler
