@@ -293,16 +293,8 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}on_
 ✓ _${usedPrefix}off_
 
-> 💞 *PAREIA* 💞
 
-✓ _${usedPrefix}listaparejas | listship_
-✓ _${usedPrefix}mipareja | mylove_
-✓ _${usedPrefix}pareja | couple *@tag*_
-✓ _${usedPrefix}aceptar | accept *@tag*_
-✓ _${usedPrefix}rechazar | decline *@tag*_
-✓ _${usedPrefix}terminar | finish *@tag*_
-
-> 📦 *VOTACIONES EN GRUPOS* 📦
+> 📦 *VOTAÇÕES EM GRUPOS* 📦
 
 ✓ _${usedPrefix}crearvoto | startvoto *texto*_
 ✓ _${usedPrefix}sivotar | upvote_
@@ -408,7 +400,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}smooth_
 ✓ _${usedPrefix}tupai_
 
-> 🔍 *BÚSQUEDAS* 🔍
+> 🔍 *PESQUISAS* 🔍
 
 ✓ _${usedPrefix}animeinfo *texto*_
 ✓ _${usedPrefix}mangainfo *texto*_
