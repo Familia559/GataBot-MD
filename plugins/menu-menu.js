@@ -130,7 +130,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 > ✨ *INFORMAÇÃO DO USUARIO* ✨
 
 *❰❰ Tipo de registro ❱❱*
-➺ ${user.registered === true ? `_${user.registroC === true ? '🗂️ Registro Completo' : '📑 Registro Rápido'}_` : '❌ _Sin registro_'}
+➺ ${user.registered === true ? `_${user.registroC === true ? '🗂️ Registro Completo' : '📑 Registro Rápido'}_` : '❌ _Sem registro_'}
 
 *❰❰ Meu estado ❱❱*
 ➺ ${typeof user.miestado !== 'string' ? '❌ *Estabelecer usando:* _' + usedPrefix + 'miestado_' : '_Me sinto ' + user.miestado + '_'}
@@ -150,8 +150,8 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 *❰❰ ${lenguajeGB['smsPareja']()} ❱❱*
 ➺ ${pareja ? `${name} 💕 ${conn.getName(pareja)}` : `🛐 ${lenguajeGB['smsResultPareja']()}`}
 
-*❰❰ Pasatiempo(s) ❱❱* 
-➺ ${user.pasatiempo === 0 ? '*Sin Registro*' : user.pasatiempo + '\n'}
+*❰❰ Pasatempo(s) ❱❱* 
+➺ ${user.pasatiempo === 0 ? '*Sem Registro*' : user.pasatiempo + '\n'}
 
 > 💫 *INFORMAÇÃO* 💫
 
