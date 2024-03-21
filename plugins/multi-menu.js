@@ -86,7 +86,7 @@ const temaX = [['pornololi', 'nsfwloli'], ['pornopies', 'nsfwfoot'], ['pornoass'
 ['pornorezero', 'nsfwrezero'], ['pornotatsumaki', 'nsfwtatsumaki'], ['pornonaruto', 'nsfwnaruto'], ['pornokitagawa', 'nsfwkitagawa'], ['pornovid', 'nsfwvid'],
 ['pornovid2', 'nsfwvid2'], ['pornovidlesbi', 'nsfwvidlesbi'], ['pornovidgay', 'nsfwvidgay'], ['pornovidbisexual', 'nsfwvidbisexual'], ['pornovidrandom', 'nsfwvidrandom']]
 
-if (command == 'audioefectomenu'){ //audio
+if (command == 'menuaudiosefeito'){ //audio
 let menuA = `🎧 ${lenguajeGB['smsConfi2']()} *${username}*
 
 ╭┄〔 *${wm}* 〕┄⊱
@@ -116,7 +116,7 @@ await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menuA, fkontak, false
 //conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
-} if (command == 'buscarmenu'){ //buscador
+} if (command == 'menubuscar'){ //buscador
 let menuA = `🎈 ${lenguajeGB['smsConfi2']()} *${username}*
 
 ╭┄〔 *${wm}* 〕┄⊱
@@ -143,7 +143,7 @@ await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menuA, fkontak, false
 //await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
-} if (command == 'hornymenu' || command == 'menu18'){ //comandos+18
+} if (command == 'menuhorny' || command == 'menu18'){ //comandos+18
 let pp = './src/+18.jpg'
 
 let menuA = `😏 ${lenguajeGB['smsConfi2']()} *${username}*
@@ -277,7 +277,7 @@ sections }
 conn.sendMessage(m.chat, listMessage, {quoted: fkontak})
   
   
-} if (command == 'convertidormenu'){ //convertidor
+} if (command == 'menuconvertidor'){ //convertidor
 let menuA = `📍 ${lenguajeGB['smsConfi2']()} *${username}*
 
 ╭┄〔 *${wm}* 〕┄⊱
@@ -301,7 +301,7 @@ await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menuA, fkontak, false
 //conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)  
 
   
-} if (command == 'descargasmenu'){ //descargas
+} if (command == 'menudownload'){ //descargas
 let menuA = `🪄 ${lenguajeGB['smsConfi2']()} *${username}*
 
 ╭┄〔 *${wm}* 〕┄⊱
@@ -349,7 +349,7 @@ await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menuA, fkontak, false
   
 
   
-} if (command == 'grupomenu' || command == 'menugrupo'){ //grupo
+} if (command == 'menuadm' || command == 'menugrupo'){ //grupo
 let menuA = `🔰 ${lenguajeGB['smsConfi2']()} *${username}*
 
 ╭┄〔 *${wm}* 〕┄⊱
@@ -440,17 +440,17 @@ let menuA = `🌟 ${lenguajeGB['smsConfi2']()} *${username}*
 ┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex13']()} 💫
-∘ _${usedPrefix}contasofc | contasgb_
-∘ _${usedPrefix}gruposgb | grupos | groupgb_
+∘ _${usedPrefix}contasofc |
+∘ _${usedPrefix}gruposgb |
 ∘ _${usedPrefix}donar |
 ∘ _${usedPrefix}listagrupos |
 ∘ _${usedPrefix}status |
-∘ _${usedPrefix}infobot |infomago
+∘ _${usedPrefix}infobot |
 ∘ _${usedPrefix}criador |
-∘ _${usedPrefix}velocidad | ping_
-∘ _${usedPrefix}serbot | jadibot_
+∘ _${usedPrefix}velocidad |Ping_
+∘ _${usedPrefix}serbot |
 ∘ _${usedPrefix}bots |
-∘ _${usedPrefix}detener | stop_
+∘ _${usedPrefix}detener |
 ∘ _${usedPrefix}reporte *texto*_
 ∘ _Bot_ 
 `.trim()
@@ -458,7 +458,7 @@ await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menuA, fkontak, false
 //conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
-} if (command == 'makermenu'){ //maker
+} if (command == 'menumaker'){ //maker
 let menuA = `✨ ${lenguajeGB['smsConfi2']()} *${username}*
 
 ╭┄〔 *${wm}* 〕┄⊱
