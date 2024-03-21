@@ -450,7 +450,6 @@ let menuA = `🌟 ${lenguajeGB['smsConfi2']()} *${username}*
 ∘ _${usedPrefix}velocidad |Ping_
 ∘ _${usedPrefix}serbot |
 ∘ _${usedPrefix}bots |
-∘ _${usedPrefix}detener |
 ∘ _${usedPrefix}reporte *texto*_
 ∘ _Bot_ 
 `.trim()
