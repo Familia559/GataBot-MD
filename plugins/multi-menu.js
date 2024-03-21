@@ -447,7 +447,7 @@ let menuA = `🌟 ${lenguajeGB['smsConfi2']()} *${username}*
 ∘ _${usedPrefix}status |
 ∘ _${usedPrefix}infobot |
 ∘ _${usedPrefix}criador |
-∘ _${usedPrefix}velocidad |Ping_
+∘ _${usedPrefix}Ping |
 ∘ _${usedPrefix}serbot |
 ∘ _${usedPrefix}bots |
 ∘ _${usedPrefix}reporte *texto*_
