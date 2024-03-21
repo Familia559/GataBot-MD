@@ -347,62 +347,6 @@ await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menuA, fkontak, false
 //conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
-} if (command == 'juegosmenu'){ //fun
-let menuA = `🎠 ${lenguajeGB['smsConfi2']()} *${username}*
-
-╭┄〔 *${wm}* 〕┄⊱
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
-┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
-⠇ ${lenguajeGB['smsTex10']()} 🎡
-∘ _${usedPrefix}mates | matemáticas | math_
-∘ _${usedPrefix}ppt *piedra : papel : tijera*_
-∘ _${usedPrefix}tictactoe | ttt *sala*_
-∘ _${usedPrefix}deltictactoe | delttt_
-∘ _${usedPrefix}topgays_
-∘ _${usedPrefix}topotakus_
-∘ _${usedPrefix}toppajer@s_
-∘ _${usedPrefix}topput@s_
-∘ _${usedPrefix}topintegrantes | topintegrante_
-∘ _${usedPrefix}toplagrasa | topgrasa_
-∘ _${usedPrefix}toppanafrescos | toppanafresco_
-∘ _${usedPrefix}topshiposters | topshipost_
-∘ _${usedPrefix}toplindos | toplind@s_
-∘ _${usedPrefix}topfamosos | topfamos@s_
-∘ _${usedPrefix}topparejas | top5parejas_
-∘ _${usedPrefix}gay | gay *@tag*_
-∘ _${usedPrefix}gay2 *nombre : @tag*_
-∘ _${usedPrefix}lesbiana *nombre : @tag*_
-∘ _${usedPrefix}manca *nombre : @tag*_
-∘ _${usedPrefix}manco *nombre : @tag*_
-∘ _${usedPrefix}pajero *nombre : @tag*_
-∘ _${usedPrefix}pajera *nombre : @tag*_
-∘ _${usedPrefix}puto *nombre : @tag*_
-∘ _${usedPrefix}puta *nombre : @tag*_
-∘ _${usedPrefix}rata *nombre : @tag*_
-∘ _${usedPrefix}love *nombre : @tag*_
-∘ _${usedPrefix}doxear *nombre : @tag*_
-∘ _${usedPrefix}doxxeame_
-∘ _${usedPrefix}pregunta *texto*_
-∘ _${usedPrefix}apostar | slot *cantidad*_
-∘ _${usedPrefix}formarpareja_
-∘ _${usedPrefix}acentijo_
-∘ _${usedPrefix}cancion_
-∘ _${usedPrefix}adivinaza_
-∘ _${usedPrefix}pelicula
-∘ _${usedPrefix}dado_
-∘ _${usedPrefix}verdad_
-∘ _${usedPrefix}reto_
-∘ _${usedPrefix}multijuegos_
-∘ _${usedPrefix}ruleta_
-∘ _${usedPrefix}suerte_
-`.trim()
-await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menuA, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: `${lenguajeGB['smsTex10']()} 🎡`, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu.getRandom()}}})
-//conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
 } if (command == 'grupomenu' || command == 'menugrupo'){ //grupo
@@ -454,7 +398,7 @@ await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menuA, fkontak, false
 //conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
-} if (command == 'herramientasmenu'){ //herramientas
+} if (command == 'ferramentasmenu'){ //herramientas
 let menuA = `🔩 ${lenguajeGB['smsConfi2']()} *${username}*
 
 ╭┄〔 *${wm}* 〕┄⊱
@@ -496,21 +440,18 @@ let menuA = `🌟 ${lenguajeGB['smsConfi2']()} *${username}*
 ┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex13']()} 💫
-∘ _${usedPrefix}cuentasgatabot | cuentasgb_
+∘ _${usedPrefix}contasofc | contasgb_
 ∘ _${usedPrefix}gruposgb | grupos | groupgb_
-∘ _${usedPrefix}donar | donate_
-∘ _${usedPrefix}listagrupos | grouplist_
-∘ _${usedPrefix}estado | heygata | status_
-∘ _${usedPrefix}infogata | infobot_
-∘ _${usedPrefix}instalarbot | installbot_
-∘ _${usedPrefix}creadora | owner_
+∘ _${usedPrefix}donar |
+∘ _${usedPrefix}listagrupos |
+∘ _${usedPrefix}status |
+∘ _${usedPrefix}infobot |infomago
+∘ _${usedPrefix}criador |
 ∘ _${usedPrefix}velocidad | ping_
 ∘ _${usedPrefix}serbot | jadibot_
-∘ _${usedPrefix}serbot --code | jadibot --code_
-∘ _${usedPrefix}bots | listjadibots_
+∘ _${usedPrefix}bots |
 ∘ _${usedPrefix}detener | stop_
 ∘ _${usedPrefix}reporte *texto*_
-∘ _términos y condiciones_
 ∘ _Bot_ 
 `.trim()
 await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menuA, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: `${lenguajeGB['smsTex13']()} 💫`, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu.getRandom()}}})
@@ -586,7 +527,7 @@ await conn.sendFile(m.chat, pp, 'lp.jpg', menuA, fkontak, false, { contextInfo: 
 // conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
-} if (command == 'ownermenu'){ //propietario(a)
+} if (command == 'menudono'){ //propietario(a)
 let menuA = `🛂 ${lenguajeGB['smsConfi2']()} *${username}*
 
 ╭┄〔 *${wm}* 〕┄⊱
@@ -725,12 +666,6 @@ let menuA = `🪅 ${lenguajeGB['smsConfi2']()} *${username}*
 ∘ _${usedPrefix}nivel | level | lvl_
 ∘ _${usedPrefix}rol | rango_
 ∘ _${usedPrefix}inventario | inventory_
-∘ _${usedPrefix}listaparejas | listship_
-∘ _${usedPrefix}mipareja | mylove_
-∘ _${usedPrefix}pareja | couple *@tag*_
-∘ _${usedPrefix}aceptar | accept *@tag*_
-∘ _${usedPrefix}rechazar | decline *@tag*_
-∘ _${usedPrefix}terminar | finish *@tag*_
 ∘ _${usedPrefix}aventura | adventure_
 ∘ _${usedPrefix}caza | cazar | hunt_
 ∘ _${usedPrefix}pescar | fishing_
