@@ -1,4 +1,4 @@
-import TicTacToe from '../lib/tictactoe.js' 
+/*import TicTacToe from '../lib/tictactoe.js' 
 let timeout = 60000
 let poin = 600 
 let poin_lose = -100
