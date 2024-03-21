@@ -152,11 +152,8 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃⛺ _*MENU MAKER*_ ⛺
 ┃➺ _${usedPrefix}menumaker |
 ┃
-┃💮 _*MENU LOGO*_ 💮
+┃💮 _*MENU LOGOS*_ 💮
 ┃➺ _${usedPrefix}menulogos2 |
-┃
-┃🌅 _${lenguajeGB['smsTex15']()}_ 🌅
-┃➺ _${usedPrefix}menulogos2_
 ┃
 ┃💎 _*MENU PROPRIETÁRIO*_ 💎
 ┃➺ _${usedPrefix}menudono |
