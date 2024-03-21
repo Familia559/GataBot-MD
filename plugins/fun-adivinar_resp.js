@@ -1,4 +1,4 @@
-import similarity from 'similarity'
+/*import similarity from 'similarity'
 
 const threshold = 0.72
 
