@@ -103,7 +103,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ⊜ *${lenguajeGB['smsBotonM5']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM5']().slice(1).toLowerCase()} »* ${role}
 ⊜ *${lenguajeGB['smsBotonM6']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM6']().slice(1).toLowerCase()} »* ${emoji} || ${user.exp - min}/${xp}
 ⊜ *${lenguajeGB['smsPareja']()}* ${pareja ? `\n*»* ${name} 💕 ${conn.getName(pareja)}` : `🛐 ${lenguajeGB['smsResultPareja']()}`}
-⊜ *Pasatiempo(s)* ➺ ${user.pasatiempo === 0 ? '*Sin Registro*' : user.pasatiempo + '\n'}
+⊜ *Pasatempo(s)* ➺ ${user.pasatiempo === 0 ? '*Sin Registro*' : user.pasatiempo + '\n'}
 ⊜ *Experiencia ➟* ${exp} ⚡
 ⊜ *Diamantes ➟* ${limit} 💎
 ⊜ *GataCoins ➟* ${money} 🐈
@@ -115,46 +115,43 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃➺ _${usedPrefix}menucompleto | allmenu_
 ┃
 ┃🔊 _*MENU DE AUDIOS*_ 🔊
-┃➺ _${usedPrefix}menuaudio | menuaudios_
+┃➺ _${usedPrefix}menuaudio |
 ┃
 ┃💫 _${lenguajeGB['smsTex13']()}_ 💫
 ┃➺ _${usedPrefix}infomenu_
 ┃
-┃👾 _${lenguajeGB['smsTex10']()}_ 👾
-┃➺ _${usedPrefix}juegosmenu_
-┃
 ┃🚀 _${lenguajeGB['smsTex9']()}_ 🚀
-┃➺ _${usedPrefix}descargasmenu_
+┃➺ _${usedPrefix}menudownload_
 ┃
 ┃🔐 _${lenguajeGB['smsTex11']()}_ 🔐
 ┃➺ _${usedPrefix}grupomenu_
 ┃
 ┃🧸 _${lenguajeGB['smsTex22']()}_ 🧸
-┃➺ _${usedPrefix}stickermenu_
+┃➺ _${usedPrefix}menusticker_
 ┃
 ┃🛠️ _${lenguajeGB['smsTex12']()}_ 🛠️
-┃➺ _${usedPrefix}herramientasmenu_
+┃➺ _${usedPrefix}menuferramentas_
 ┃
 ┃⛩️ _${lenguajeGB['smsTex23']()}_ ⛩️
-┃➺ _${usedPrefix}randommenu_
+┃➺ _${usedPrefix}menurandom_
 ┃
 ┃🛰️ _${lenguajeGB['smsTex8']()}_ 🛰️
-┃➺ _${usedPrefix}convertidormenu_
+┃➺ _${usedPrefix}menuconvertidor_
 ┃
 ┃🎈 _${lenguajeGB['smsTex1']()}_🎈
-┃➺ _${usedPrefix}buscarmenu_
+┃➺ _${usedPrefix}menubuscar_
 ┃
 ┃🎧 _${lenguajeGB['smsTex2']()}_ 🎧
-┃➺ _${usedPrefix}audioefectomenu_
+┃➺ _${usedPrefix}menuaudiosefeito_
 ┃
 ┃🔞 _${lenguajeGB['smsTex3']()}_ 🔞
-┃➺ _${usedPrefix}menu18 | hornymenu_
+┃➺ _${usedPrefix}menu18 | menuhorny_
 ┃
 ┃⚗️ _${lenguajeGB['smsTex21']()}_ ⚗️
-┃➺ _${usedPrefix}rpgmenu_
+┃➺ _${usedPrefix}menurpg_
 ┃
 ┃⛺ _${lenguajeGB['smsTex14']()}_ ⛺
-┃➺ _${usedPrefix}makermenu_
+┃➺ _${usedPrefix}menumaker_
 ┃
 ┃💮 _${lenguajeGB['smsTex15']()}_ 💮
 ┃➺ _${usedPrefix}menulogos2_
@@ -163,7 +160,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃➺ _${usedPrefix}menulogos2_
 ┃
 ┃💎 _${lenguajeGB['smsTex20']()}_ 💎
-┃➺ _${usedPrefix}ownermenu_
+┃➺ _${usedPrefix}menudono_
 ┃
 ┃✅ *_CONTAS OFICIAIS GATABOT_* ✅
 ┃➺ _${usedPrefix}contasofc | criador_
