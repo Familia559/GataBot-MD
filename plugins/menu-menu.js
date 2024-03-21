@@ -147,8 +147,6 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 *❰❰ ${lenguajeGB['smsBotonM6']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM6']().slice(1).toLowerCase()} ❱❱*
 ➺ ${emoji} \`${user.exp - min}/${xp}\`
 
-*❰❰ ${lenguajeGB['smsPareja']()} ❱❱*
-➺ ${pareja ? `${name} 💕 ${conn.getName(pareja)}` : `🛐 ${lenguajeGB['smsResultPareja']()}`}
 
 *❰❰ Pasatempo(s) ❱❱* 
 ➺ ${user.pasatiempo === 0 ? '*Sem Registro*' : user.pasatiempo + '\n'}
@@ -201,7 +199,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}on *o* off *modocaliente | modohorny*_
 ✓ _${usedPrefix}on *o* off *antitoxicos | antitoxic*_
 ✓ _${usedPrefix}on *o* off *antiver | antiviewonce*_
-✓ _${usedPrefix}on *o* off *antieliminar | antidelete*_
+✓ _${usedPrefix}on *o* off *antiliminar | antidelete*_
 ✓ _${usedPrefix}on *o* off *antinternacional | antifake*_
 ✓ _${usedPrefix}on *o* off *antienlace | antilink*_
 ✓ _${usedPrefix}on *o* off *antienlace2 | antilink2*_
